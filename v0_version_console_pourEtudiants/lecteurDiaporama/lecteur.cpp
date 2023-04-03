@@ -7,12 +7,12 @@ Lecteur::Lecteur()
 
 void Lecteur::avancer()
 {
-    _posImageCourante == nbImages()-1 ? _posImageCourante = 0 : _posImageCourante ++;
+    _posImageCourante = (_posImageCourante +1) % nbImages();
 }
 
 void Lecteur::reculer()
 {
-    _posImageCourante == 0 ? _posImageCourante = nbImages()-1 : _posImageCourante --;
+    _posImageCourante = (_posImageCourante -1) % nbImages();
 }
 
 void Lecteur::changerDiaporama(unsigned int pNumDiaporama)
@@ -106,13 +106,12 @@ void Lecteur::afficher()
      *     si ce diaporama n'a aucun image */
     if (numDiaporamaCourant() > 0)
     {
-        cout << "Diaporama : " << numDiaporamaCourant() << endl << endl;
+        cout << "Diaporama num. " << numDiaporamaCourant() << endl;
         imageCourante()->Image::afficher();
     }
     else
     {
-        cout << "vide" << endl << endl;
-        cout << "diaporama vide" << endl;
+        cout << "Lecteur vide" << endl;
     }
 }
 
