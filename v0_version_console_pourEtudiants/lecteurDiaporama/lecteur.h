@@ -27,6 +27,9 @@ private:
 private:
     void chargerDiaporama();    // charge dans _diaporama les images du _numDiaporamaCourant
     void viderDiaporama();      // vide _diaporama de tous ses objets image et les delete
+    unsigned int positionDuMax(unsigned int, unsigned int); // retourne l'index dans le vecteur de l'image ayant le rang le plus grand
+    void triDiaporama(); // trie le diaporama dans l'ordre croissant selon le rang de l'image
 };
+
 
 #endif // LECTEUR_H
