@@ -5,7 +5,11 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-I",
+<<<<<<< HEAD
         "C:\\Users\\local_ldamageux\\Temp\\QtCreator-wEkGOD\\clang-uiheader-AiItfx",
+=======
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-DZzjfo\\clang-uiheader-eHGsga",
+>>>>>>> 883ada791f0fa90b78ccaa4dc9e42afe34da51ce
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -62,7 +66,11 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-I",
+<<<<<<< HEAD
         "C:\\Users\\local_ldamageux\\Temp\\QtCreator-wEkGOD\\clang-uiheader-AiItfx",
+=======
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-DZzjfo\\clang-uiheader-eHGsga",
+>>>>>>> 883ada791f0fa90b78ccaa4dc9e42afe34da51ce
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -119,7 +127,11 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-I",
+<<<<<<< HEAD
         "C:\\Users\\local_ldamageux\\Temp\\QtCreator-wEkGOD\\clang-uiheader-AiItfx",
+=======
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-DZzjfo\\clang-uiheader-eHGsga",
+>>>>>>> 883ada791f0fa90b78ccaa4dc9e42afe34da51ce
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -176,7 +188,11 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-I",
+<<<<<<< HEAD
         "C:\\Users\\local_ldamageux\\Temp\\QtCreator-wEkGOD\\clang-uiheader-AiItfx",
+=======
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-DZzjfo\\clang-uiheader-eHGsga",
+>>>>>>> 883ada791f0fa90b78ccaa4dc9e42afe34da51ce
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -233,7 +249,11 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-I",
+<<<<<<< HEAD
         "C:\\Users\\local_ldamageux\\Temp\\QtCreator-wEkGOD\\clang-uiheader-AiItfx",
+=======
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-DZzjfo\\clang-uiheader-eHGsga",
+>>>>>>> 883ada791f0fa90b78ccaa4dc9e42afe34da51ce
         "-nostdinc",
         "-nostdinc++",
         "-g",
