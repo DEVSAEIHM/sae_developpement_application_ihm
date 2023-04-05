@@ -5,11 +5,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-I",
-<<<<<<< HEAD
-        "C:\\Users\\local_ldamageux\\Temp\\QtCreator-wEkGOD\\clang-uiheader-AiItfx",
-=======
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-DZzjfo\\clang-uiheader-eHGsga",
->>>>>>> 883ada791f0fa90b78ccaa4dc9e42afe34da51ce
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-wATvNO\\clang-uiheader-RyLEiS",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -29,9 +25,9 @@
         "-DMINGW_HAS_SECURE_API",
         "-DQT_QML_DEBUG",
         "-I",
-        "F:\\IUT\\Annee1\\S2\\S2.01-personnel\\lecteurDiaporama",
+        "F:\\courBut\\semestre2\\s201\\v0_version_console_pourEtudiants\\lecteurDiaporama",
         "-I",
-        "F:\\IUT\\Annee1\\S2\\S2.01\\v0_version_console_pourEtudiants\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "F:\\courBut\\semestre2\\s201\\v0_version_console_pourEtudiants\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -55,10 +51,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\IUT\\Annee1\\S2\\S2.01-personnel\\lecteurDiaporama\\image.cpp"
+        "F:\\courBut\\semestre2\\s201\\v0_version_console_pourEtudiants\\lecteurDiaporama\\image.cpp"
     ],
-    "directory": "F:/IUT/Annee1/S2/S2.01/v0_version_console_pourEtudiants/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/IUT/Annee1/S2/S2.01-personnel/lecteurDiaporama/image.cpp"
+    "directory": "F:/courBut/semestre2/s201/v0_version_console_pourEtudiants/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/courBut/semestre2/s201/v0_version_console_pourEtudiants/lecteurDiaporama/image.cpp"
 },
 {
     "arguments": [
@@ -66,11 +62,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-I",
-<<<<<<< HEAD
-        "C:\\Users\\local_ldamageux\\Temp\\QtCreator-wEkGOD\\clang-uiheader-AiItfx",
-=======
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-DZzjfo\\clang-uiheader-eHGsga",
->>>>>>> 883ada791f0fa90b78ccaa4dc9e42afe34da51ce
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-wATvNO\\clang-uiheader-RyLEiS",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -90,9 +82,9 @@
         "-DMINGW_HAS_SECURE_API",
         "-DQT_QML_DEBUG",
         "-I",
-        "F:\\IUT\\Annee1\\S2\\S2.01-personnel\\lecteurDiaporama",
+        "F:\\courBut\\semestre2\\s201\\v0_version_console_pourEtudiants\\lecteurDiaporama",
         "-I",
-        "F:\\IUT\\Annee1\\S2\\S2.01\\v0_version_console_pourEtudiants\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "F:\\courBut\\semestre2\\s201\\v0_version_console_pourEtudiants\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -116,10 +108,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\IUT\\Annee1\\S2\\S2.01-personnel\\lecteurDiaporama\\lecteur.cpp"
+        "F:\\courBut\\semestre2\\s201\\v0_version_console_pourEtudiants\\lecteurDiaporama\\lecteur.cpp"
     ],
-    "directory": "F:/IUT/Annee1/S2/S2.01/v0_version_console_pourEtudiants/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/IUT/Annee1/S2/S2.01-personnel/lecteurDiaporama/lecteur.cpp"
+    "directory": "F:/courBut/semestre2/s201/v0_version_console_pourEtudiants/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/courBut/semestre2/s201/v0_version_console_pourEtudiants/lecteurDiaporama/lecteur.cpp"
 },
 {
     "arguments": [
@@ -127,11 +119,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-I",
-<<<<<<< HEAD
-        "C:\\Users\\local_ldamageux\\Temp\\QtCreator-wEkGOD\\clang-uiheader-AiItfx",
-=======
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-DZzjfo\\clang-uiheader-eHGsga",
->>>>>>> 883ada791f0fa90b78ccaa4dc9e42afe34da51ce
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-wATvNO\\clang-uiheader-RyLEiS",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -151,9 +139,9 @@
         "-DMINGW_HAS_SECURE_API",
         "-DQT_QML_DEBUG",
         "-I",
-        "F:\\IUT\\Annee1\\S2\\S2.01-personnel\\lecteurDiaporama",
+        "F:\\courBut\\semestre2\\s201\\v0_version_console_pourEtudiants\\lecteurDiaporama",
         "-I",
-        "F:\\IUT\\Annee1\\S2\\S2.01\\v0_version_console_pourEtudiants\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "F:\\courBut\\semestre2\\s201\\v0_version_console_pourEtudiants\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -177,10 +165,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\IUT\\Annee1\\S2\\S2.01-personnel\\lecteurDiaporama\\main.cpp"
+        "F:\\courBut\\semestre2\\s201\\v0_version_console_pourEtudiants\\lecteurDiaporama\\main.cpp"
     ],
-    "directory": "F:/IUT/Annee1/S2/S2.01/v0_version_console_pourEtudiants/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/IUT/Annee1/S2/S2.01-personnel/lecteurDiaporama/main.cpp"
+    "directory": "F:/courBut/semestre2/s201/v0_version_console_pourEtudiants/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/courBut/semestre2/s201/v0_version_console_pourEtudiants/lecteurDiaporama/main.cpp"
 },
 {
     "arguments": [
@@ -188,11 +176,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-I",
-<<<<<<< HEAD
-        "C:\\Users\\local_ldamageux\\Temp\\QtCreator-wEkGOD\\clang-uiheader-AiItfx",
-=======
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-DZzjfo\\clang-uiheader-eHGsga",
->>>>>>> 883ada791f0fa90b78ccaa4dc9e42afe34da51ce
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-wATvNO\\clang-uiheader-RyLEiS",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -212,9 +196,9 @@
         "-DMINGW_HAS_SECURE_API",
         "-DQT_QML_DEBUG",
         "-I",
-        "F:\\IUT\\Annee1\\S2\\S2.01-personnel\\lecteurDiaporama",
+        "F:\\courBut\\semestre2\\s201\\v0_version_console_pourEtudiants\\lecteurDiaporama",
         "-I",
-        "F:\\IUT\\Annee1\\S2\\S2.01\\v0_version_console_pourEtudiants\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "F:\\courBut\\semestre2\\s201\\v0_version_console_pourEtudiants\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -238,10 +222,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\IUT\\Annee1\\S2\\S2.01-personnel\\lecteurDiaporama\\image.h"
+        "F:\\courBut\\semestre2\\s201\\v0_version_console_pourEtudiants\\lecteurDiaporama\\image.h"
     ],
-    "directory": "F:/IUT/Annee1/S2/S2.01/v0_version_console_pourEtudiants/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/IUT/Annee1/S2/S2.01-personnel/lecteurDiaporama/image.h"
+    "directory": "F:/courBut/semestre2/s201/v0_version_console_pourEtudiants/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/courBut/semestre2/s201/v0_version_console_pourEtudiants/lecteurDiaporama/image.h"
 },
 {
     "arguments": [
@@ -249,11 +233,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-I",
-<<<<<<< HEAD
-        "C:\\Users\\local_ldamageux\\Temp\\QtCreator-wEkGOD\\clang-uiheader-AiItfx",
-=======
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-DZzjfo\\clang-uiheader-eHGsga",
->>>>>>> 883ada791f0fa90b78ccaa4dc9e42afe34da51ce
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-wATvNO\\clang-uiheader-RyLEiS",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -273,9 +253,9 @@
         "-DMINGW_HAS_SECURE_API",
         "-DQT_QML_DEBUG",
         "-I",
-        "F:\\IUT\\Annee1\\S2\\S2.01-personnel\\lecteurDiaporama",
+        "F:\\courBut\\semestre2\\s201\\v0_version_console_pourEtudiants\\lecteurDiaporama",
         "-I",
-        "F:\\IUT\\Annee1\\S2\\S2.01\\v0_version_console_pourEtudiants\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "F:\\courBut\\semestre2\\s201\\v0_version_console_pourEtudiants\\build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
@@ -299,9 +279,9 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\IUT\\Annee1\\S2\\S2.01-personnel\\lecteurDiaporama\\lecteur.h"
+        "F:\\courBut\\semestre2\\s201\\v0_version_console_pourEtudiants\\lecteurDiaporama\\lecteur.h"
     ],
-    "directory": "F:/IUT/Annee1/S2/S2.01/v0_version_console_pourEtudiants/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/IUT/Annee1/S2/S2.01-personnel/lecteurDiaporama/lecteur.h"
+    "directory": "F:/courBut/semestre2/s201/v0_version_console_pourEtudiants/build-lecteurDiaporama-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/courBut/semestre2/s201/v0_version_console_pourEtudiants/lecteurDiaporama/lecteur.h"
 }
 ]
