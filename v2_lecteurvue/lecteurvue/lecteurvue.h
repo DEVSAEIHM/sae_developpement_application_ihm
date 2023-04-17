@@ -2,6 +2,7 @@
 #define LECTEURVUE_H
 
 #include <QMainWindow>
+#include <QMessageBox>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class LecteurVue; }
@@ -17,6 +18,7 @@ public:
 
 private:
     Ui::LecteurVue *ui;
+    QMessageBox *apropos;
 private slots:
     void lancerDiaporama();
     void arreterDiaporama();

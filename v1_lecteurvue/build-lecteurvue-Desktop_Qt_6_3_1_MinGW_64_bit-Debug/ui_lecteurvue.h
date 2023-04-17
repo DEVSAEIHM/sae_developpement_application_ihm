@@ -30,6 +30,8 @@ QT_BEGIN_NAMESPACE
 class Ui_LecteurVue
 {
 public:
+    QAction *action_Quitter;
+    QAction *actionA_propos_de;
     QWidget *centralwidget;
     QVBoxLayout *verticalLayout_3;
     QGridLayout *gridLayout;
@@ -58,6 +60,10 @@ public:
         if (LecteurVue->objectName().isEmpty())
             LecteurVue->setObjectName(QString::fromUtf8("LecteurVue"));
         LecteurVue->resize(581, 313);
+        action_Quitter = new QAction(LecteurVue);
+        action_Quitter->setObjectName(QString::fromUtf8("action_Quitter"));
+        actionA_propos_de = new QAction(LecteurVue);
+        actionA_propos_de->setObjectName(QString::fromUtf8("actionA_propos_de"));
         centralwidget = new QWidget(LecteurVue);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         verticalLayout_3 = new QVBoxLayout(centralwidget);
@@ -151,6 +157,8 @@ public:
 
         menubar->addAction(menu_Fichier->menuAction());
         menubar->addAction(menu_Aide->menuAction());
+        menu_Fichier->addAction(action_Quitter);
+        menu_Aide->addAction(actionA_propos_de);
 
         retranslateUi(LecteurVue);
 
@@ -160,6 +168,8 @@ public:
     void retranslateUi(QMainWindow *LecteurVue)
     {
         LecteurVue->setWindowTitle(QCoreApplication::translate("LecteurVue", "LecteurVue", nullptr));
+        action_Quitter->setText(QCoreApplication::translate("LecteurVue", "&Quitter", nullptr));
+        actionA_propos_de->setText(QCoreApplication::translate("LecteurVue", "A propos de...", nullptr));
         intitule->setText(QCoreApplication::translate("LecteurVue", "Diaporama", nullptr));
         btnLancer->setText(QCoreApplication::translate("LecteurVue", "&Lancer", nullptr));
         btnPrecedent->setText(QCoreApplication::translate("LecteurVue", "&Pr\303\251c\303\251dent", nullptr));
