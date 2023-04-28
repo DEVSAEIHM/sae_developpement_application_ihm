@@ -59,7 +59,7 @@ public:
     {
         if (LecteurVue->objectName().isEmpty())
             LecteurVue->setObjectName(QString::fromUtf8("LecteurVue"));
-        LecteurVue->resize(581, 313);
+        LecteurVue->resize(581, 310);
         action_Quitter = new QAction(LecteurVue);
         action_Quitter->setObjectName(QString::fromUtf8("action_Quitter"));
         actionA_propos_de = new QAction(LecteurVue);
