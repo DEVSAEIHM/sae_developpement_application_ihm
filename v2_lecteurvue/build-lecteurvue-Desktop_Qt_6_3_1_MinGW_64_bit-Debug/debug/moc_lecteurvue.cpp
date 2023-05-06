@@ -22,24 +22,28 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_LecteurVue_t {
-    const uint offsetsAndSize[12];
-    char stringdata0[81];
+    const uint offsetsAndSize[18];
+    char stringdata0[131];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(offsetof(qt_meta_stringdata_LecteurVue_t, stringdata0) + ofs), len 
 static const qt_meta_stringdata_LecteurVue_t qt_meta_stringdata_LecteurVue = {
     {
 QT_MOC_LITERAL(0, 10), // "LecteurVue"
-QT_MOC_LITERAL(11, 15), // "lancerDiaporama"
-QT_MOC_LITERAL(27, 0), // ""
-QT_MOC_LITERAL(28, 16), // "arreterDiaporama"
-QT_MOC_LITERAL(45, 16), // "allerImgSuivante"
-QT_MOC_LITERAL(62, 18) // "allerImgPrecedente"
+QT_MOC_LITERAL(11, 13), // "demandeLancer"
+QT_MOC_LITERAL(25, 0), // ""
+QT_MOC_LITERAL(26, 14), // "demandeArreter"
+QT_MOC_LITERAL(41, 14), // "demandeSuivant"
+QT_MOC_LITERAL(56, 16), // "demandePrecedent"
+QT_MOC_LITERAL(73, 19), // "demandeMajStatusBar"
+QT_MOC_LITERAL(93, 18), // "demandeMajIntitule"
+QT_MOC_LITERAL(112, 18) // "demandeMajNomImage"
 
     },
-    "LecteurVue\0lancerDiaporama\0\0"
-    "arreterDiaporama\0allerImgSuivante\0"
-    "allerImgPrecedente"
+    "LecteurVue\0demandeLancer\0\0demandeArreter\0"
+    "demandeSuivant\0demandePrecedent\0"
+    "demandeMajStatusBar\0demandeMajIntitule\0"
+    "demandeMajNomImage"
 };
 #undef QT_MOC_LITERAL
 
@@ -49,7 +53,7 @@ static const uint qt_meta_data_LecteurVue[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-       4,   14, // methods
+       7,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -57,12 +61,18 @@ static const uint qt_meta_data_LecteurVue[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   38,    2, 0x08,    1 /* Private */,
-       3,    0,   39,    2, 0x08,    2 /* Private */,
-       4,    0,   40,    2, 0x08,    3 /* Private */,
-       5,    0,   41,    2, 0x08,    4 /* Private */,
+       1,    0,   56,    2, 0x08,    1 /* Private */,
+       3,    0,   57,    2, 0x08,    2 /* Private */,
+       4,    0,   58,    2, 0x08,    3 /* Private */,
+       5,    0,   59,    2, 0x08,    4 /* Private */,
+       6,    0,   60,    2, 0x08,    5 /* Private */,
+       7,    0,   61,    2, 0x08,    6 /* Private */,
+       8,    0,   62,    2, 0x08,    7 /* Private */,
 
  // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -77,10 +87,13 @@ void LecteurVue::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         auto *_t = static_cast<LecteurVue *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->lancerDiaporama(); break;
-        case 1: _t->arreterDiaporama(); break;
-        case 2: _t->allerImgSuivante(); break;
-        case 3: _t->allerImgPrecedente(); break;
+        case 0: _t->demandeLancer(); break;
+        case 1: _t->demandeArreter(); break;
+        case 2: _t->demandeSuivant(); break;
+        case 3: _t->demandePrecedent(); break;
+        case 4: _t->demandeMajStatusBar(); break;
+        case 5: _t->demandeMajIntitule(); break;
+        case 6: _t->demandeMajNomImage(); break;
         default: ;
         }
     }
@@ -95,7 +108,7 @@ const QMetaObject LecteurVue::staticMetaObject = { {
     nullptr,
 qt_incomplete_metaTypeArray<qt_meta_stringdata_LecteurVue_t
 , QtPrivate::TypeAndForceComplete<LecteurVue, std::true_type>
-, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>
+, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>
 
 
 >,
@@ -122,13 +135,13 @@ int LecteurVue::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 4)
+        if (_id < 7)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 7;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 4)
+        if (_id < 7)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 4;
+        _id -= 7;
     }
     return _id;
 }

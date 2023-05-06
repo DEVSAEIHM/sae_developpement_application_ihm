@@ -2,7 +2,11 @@
 #define LECTEURVUE_H
 
 #include <QMainWindow>
-#include <QMessageBox>
+#include <QGraphicsScene>
+#include <QGraphicsPixmapItem>
+
+#include "lecteurmodele.h"
+#include "lecteurmessage.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class LecteurVue; }
@@ -18,11 +22,19 @@ public:
 
 private:
     Ui::LecteurVue *ui;
-    QMessageBox *apropos;
+    LecteurMessage *_message;
+    LecteurModele *_modele;
+    QGraphicsScene *_scene;
+    QGraphicsPixmapItem *_item;
 private slots:
-    void lancerDiaporama();
-    void arreterDiaporama();
-    void allerImgSuivante();
-    void allerImgPrecedente();
+    void demandeLancer();
+    void demandeArreter();
+    void demandeSuivant();
+    void demandePrecedent();
+    void demandeMajStatusBar();
+    void demandeMajIntitule();
+    void demandeMajNomImage();
+public:
+    void chargerImage();
 };
 #endif // LECTEURVUE_H

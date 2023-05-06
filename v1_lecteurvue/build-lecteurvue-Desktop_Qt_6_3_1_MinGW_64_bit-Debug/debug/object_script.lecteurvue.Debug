@@ -1,0 +1,11 @@
+debug/image.o
+debug/lecteurmodele.o
+debug/lecteurpresentation.o
+debug/main.o
+debug/lecteurvue.o
+debug/message.o
+debug/qrc_ressourceLecteur.o
+debug/moc_lecteurmodele.o
+debug/moc_lecteurpresentation.o
+debug/moc_lecteurvue.o
+debug/moc_message.o

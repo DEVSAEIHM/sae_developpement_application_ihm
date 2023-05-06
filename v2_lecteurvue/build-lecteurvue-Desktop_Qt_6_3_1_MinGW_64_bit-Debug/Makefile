@@ -282,6 +282,7 @@ Makefile: ../lecteurvue/lecteurvue.pro C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/win3
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/features/qt_config.prf \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/win32-g++/qmake.conf \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/features/exclusive_builds.prf \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/features/toolchain.prf \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/features/default_pre.prf \
@@ -311,8 +312,8 @@ Makefile: ../lecteurvue/lecteurvue.pro C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/win3
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/lib/Qt6Gui.prl \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/lib/Qt6Core.prl \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/lib/Qt6EntryPoint.prl \
-		.qmake.stash \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/features/build_pass.prf
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/features/build_pass.prf \
+		../lecteurvue/ressourcesLecteur.qrc
 	$(QMAKE) -o Makefile ..\lecteurvue\lecteurvue.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/features/spec_pre.prf:
 C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/features/device_config.prf:
@@ -526,6 +527,7 @@ C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/features/qt_functions.prf:
 C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/features/qt_config.prf:
 C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/win32-g++/qmake.conf:
 C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/features/exclusive_builds.prf:
 C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/features/toolchain.prf:
 C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/features/default_pre.prf:
@@ -555,8 +557,8 @@ C:/Qt/Qt6.3.1/6.3.1/mingw_64/lib/Qt6Widgets.prl:
 C:/Qt/Qt6.3.1/6.3.1/mingw_64/lib/Qt6Gui.prl:
 C:/Qt/Qt6.3.1/6.3.1/mingw_64/lib/Qt6Core.prl:
 C:/Qt/Qt6.3.1/6.3.1/mingw_64/lib/Qt6EntryPoint.prl:
-.qmake.stash:
 C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/features/build_pass.prf:
+../lecteurvue/ressourcesLecteur.qrc:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\lecteurvue\lecteurvue.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 

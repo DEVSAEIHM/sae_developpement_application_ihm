@@ -30,12 +30,16 @@ QT_BEGIN_NAMESPACE
 class Ui_LecteurVue
 {
 public:
+    QAction *action_Quitter;
+    QAction *actionA_propos_de;
     QWidget *centralwidget;
     QVBoxLayout *verticalLayout_3;
     QGridLayout *gridLayout;
     QHBoxLayout *horizontalLayout_8;
     QSpacerItem *horizontalSpacer_6;
     QLabel *intitule;
+    QSpacerItem *horizontalSpacer_8;
+    QLabel *imgTitre;
     QSpacerItem *horizontalSpacer_7;
     QGraphicsView *imgVue;
     QHBoxLayout *horizontalLayout_7;
@@ -57,7 +61,11 @@ public:
     {
         if (LecteurVue->objectName().isEmpty())
             LecteurVue->setObjectName(QString::fromUtf8("LecteurVue"));
-        LecteurVue->resize(581, 313);
+        LecteurVue->resize(581, 310);
+        action_Quitter = new QAction(LecteurVue);
+        action_Quitter->setObjectName(QString::fromUtf8("action_Quitter"));
+        actionA_propos_de = new QAction(LecteurVue);
+        actionA_propos_de->setObjectName(QString::fromUtf8("actionA_propos_de"));
         centralwidget = new QWidget(LecteurVue);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         verticalLayout_3 = new QVBoxLayout(centralwidget);
@@ -74,6 +82,15 @@ public:
         intitule->setObjectName(QString::fromUtf8("intitule"));
 
         horizontalLayout_8->addWidget(intitule);
+
+        horizontalSpacer_8 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_8->addItem(horizontalSpacer_8);
+
+        imgTitre = new QLabel(centralwidget);
+        imgTitre->setObjectName(QString::fromUtf8("imgTitre"));
+
+        horizontalLayout_8->addWidget(imgTitre);
 
         horizontalSpacer_7 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
@@ -123,6 +140,7 @@ public:
 
         btnArreter = new QPushButton(centralwidget);
         btnArreter->setObjectName(QString::fromUtf8("btnArreter"));
+        btnArreter->setEnabled(false);
 
         horizontalLayout_7->addWidget(btnArreter);
 
@@ -151,6 +169,8 @@ public:
 
         menubar->addAction(menu_Fichier->menuAction());
         menubar->addAction(menu_Aide->menuAction());
+        menu_Fichier->addAction(action_Quitter);
+        menu_Aide->addAction(actionA_propos_de);
 
         retranslateUi(LecteurVue);
 
@@ -160,7 +180,10 @@ public:
     void retranslateUi(QMainWindow *LecteurVue)
     {
         LecteurVue->setWindowTitle(QCoreApplication::translate("LecteurVue", "LecteurVue", nullptr));
-        intitule->setText(QCoreApplication::translate("LecteurVue", "Diaporama", nullptr));
+        action_Quitter->setText(QCoreApplication::translate("LecteurVue", "&Quitter", nullptr));
+        actionA_propos_de->setText(QCoreApplication::translate("LecteurVue", "A propos de...", nullptr));
+        intitule->setText(QCoreApplication::translate("LecteurVue", "Diaporama : ", nullptr));
+        imgTitre->setText(QCoreApplication::translate("LecteurVue", "Image : ", nullptr));
         btnLancer->setText(QCoreApplication::translate("LecteurVue", "&Lancer", nullptr));
         btnPrecedent->setText(QCoreApplication::translate("LecteurVue", "&Pr\303\251c\303\251dent", nullptr));
         btnSuivant->setText(QCoreApplication::translate("LecteurVue", "&Suivant", nullptr));

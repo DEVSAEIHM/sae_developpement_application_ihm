@@ -1,0 +1,11 @@
+release/image.o
+release/lecteurmodele.o
+release/lecteurpresentation.o
+release/main.o
+release/lecteurvue.o
+release/message.o
+release/qrc_ressourceLecteur.o
+release/moc_lecteurmodele.o
+release/moc_lecteurpresentation.o
+release/moc_lecteurvue.o
+release/moc_message.o

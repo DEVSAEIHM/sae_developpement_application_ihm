@@ -11,12 +11,14 @@ CONFIG += c++17
 SOURCES += \
     image.cpp \
     lecteurmessage.cpp \
+    lecteurmodele.cpp \
     main.cpp \
     lecteurvue.cpp
 
 HEADERS += \
     image.h \
     lecteurmessage.h \
+    lecteurmodele.h \
     lecteurvue.h
 
 FORMS += \
@@ -26,3 +28,6 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    ressourcesLecteur.qrc

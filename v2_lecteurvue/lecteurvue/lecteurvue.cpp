@@ -1,44 +1,89 @@
 #include "lecteurvue.h"
 #include "ui_lecteurvue.h"
-#include "lecteurmessage.h"
+#include <cstring>
 
 LecteurVue::LecteurVue(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::LecteurVue)
 {
     ui->setupUi(this);
-    apropos = new LecteurMessage(this);
+    _scene = new QGraphicsScene(ui->imgVue);
+    _message = new LecteurMessage(this);
+    _modele = new LecteurModele;
+    _item = new QGraphicsPixmapItem;
+    ui->imgVue->setScene(_scene);
 
-    connect(ui->btnLancer,SIGNAL(clicked()),this,SLOT(lancerDiaporama()));
-    connect(ui->btnArreter,SIGNAL(clicked()),this,SLOT(arreterDiaporama()));
-    connect(ui->btnSuivant,SIGNAL(clicked()),this,SLOT(allerImgSuivante()));
-    connect(ui->btnPrecedent,SIGNAL(clicked()),this,SLOT(allerImgPrecedente()));
+    chargerImage();
+    demandeMajStatusBar();
+    demandeMajIntitule();
+    demandeMajNomImage();
+
+    connect(ui->btnLancer,SIGNAL(clicked()),this,SLOT(demandeLancer()));
+    connect(ui->btnArreter,SIGNAL(clicked()),this,SLOT(demandeArreter()));
+    connect(ui->btnSuivant,SIGNAL(clicked()),this,SLOT(demandeSuivant()));
+    connect(ui->btnPrecedent,SIGNAL(clicked()),this,SLOT(demandePrecedent()));
+    connect(ui->btnSuivant,SIGNAL(clicked()),this,SLOT(demandeMajStatusBar()));
+    connect(ui->btnPrecedent,SIGNAL(clicked()),this,SLOT(demandeMajStatusBar()));
+    connect(ui->btnSuivant,SIGNAL(clicked()),this,SLOT(demandeMajNomImage()));
+    connect(ui->btnPrecedent,SIGNAL(clicked()),this,SLOT(demandeMajNomImage()));
     connect(ui->action_Quitter,SIGNAL(triggered()),QCoreApplication::instance(),SLOT(quit()));
-    connect(ui->actionA_propos_de,SIGNAL(triggered()),apropos,SLOT(exec()));
+    connect(ui->actionA_propos_de,SIGNAL(triggered()),_message,SLOT(exec()));
 }
 
-void LecteurVue::lancerDiaporama()
+void LecteurVue::chargerImage()
 {
-    qDebug() << "action lancer le diaporama";
-    ui->statusbar->showMessage(tr("Lecture en mode auto"));
+    if (_scene->items().isEmpty() == false)
+    {
+        _scene->removeItem(_item);
+    }
+    QImage imgActuelle(QString::fromStdString(_modele->imageCourante()->getChemin()));
+    _item = new QGraphicsPixmapItem(QPixmap::fromImage(imgActuelle));
+    _scene->addItem(_item);
 }
 
-void LecteurVue::arreterDiaporama()
+void LecteurVue::demandeLancer()
 {
-    qDebug() << "action arreter le diaporama";
-    ui->statusbar->showMessage(tr("Arrêt mode auto"));
+    qDebug() << "demandeLancer";
 }
 
-void LecteurVue::allerImgSuivante()
+void LecteurVue::demandeArreter()
 {
-    qDebug() << "action aller à l'image suivante";
-    ui->statusbar->showMessage(tr(""));
+    qDebug() << "demandeArreter";
 }
 
-void LecteurVue::allerImgPrecedente()
+void LecteurVue::demandeSuivant()
 {
-    qDebug() << "action aller à l'image précédente";
-    ui->statusbar->showMessage(tr(""));
+    qDebug() << "demandeSuivant";
+    _modele->avancer();
+    chargerImage();
+}
+
+void LecteurVue::demandePrecedent()
+{
+    qDebug() << "demandePrecedent";
+    _modele->reculer();
+    chargerImage();
+}
+
+void LecteurVue::demandeMajIntitule()
+{
+    QString numDiapo = QString::number(_modele->numDiaporamaCourant());
+    ui->intitule->setText(ui->intitule->text() + numDiapo);
+}
+
+void LecteurVue::demandeMajNomImage()
+{
+    QString nomImage = QString::fromStdString(_modele->imageCourante()->getTitre());
+    ui->imgTitre->setText(tr("image : ") + nomImage);
+}
+
+void LecteurVue::demandeMajStatusBar()
+{
+    int rangImg = _modele->imageCourante()->getRang();
+    int nbImg = _modele->nbImages();
+    QString rangImgStr = QString::number(rangImg);
+    QString nbImgStr = QString::number(nbImg);
+    ui->statusbar->showMessage(tr("images : ") + rangImgStr + tr(" / ") + nbImgStr);
 }
 
 LecteurVue::~LecteurVue()
