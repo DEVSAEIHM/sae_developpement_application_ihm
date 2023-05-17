@@ -64,5 +64,9 @@
         <file>icon/lancerIcon.png</file>
         <file>icon/precedentIcon.png</file>
         <file>icon/suivantIcon.png</file>
+        <file>icon/openIcon.png</file>
+        <file>icon/paramIcon.png</file>
+        <file>icon/speedIcon.png</file>
+        <file>icon/settingIcon.png</file>
     </qresource>
 </RCC>

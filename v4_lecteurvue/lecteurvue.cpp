@@ -176,10 +176,11 @@ void LecteurVue::demandeMajIntitule()
     }
     else
     {
-        QString numDiapo, nomImage;
+        QString numDiapo, nomImage, categorie;
         numDiapo = QString::number(_modele->numDiaporamaCourant());
         nomImage = QString::fromStdString(_modele->imageCourante()->getTitre());
-        ui->intitule->setText(tr("Diaporama ") + numDiapo + tr(" ") + nomImage);
+        categorie = QString::fromStdString(_modele->imageCourante()->getCategorie());
+        ui->intitule->setText(tr("Diaporama ") + numDiapo + tr(" - Titre : ") + nomImage + tr(" - Categorie : ") + categorie);
     }
 }
 

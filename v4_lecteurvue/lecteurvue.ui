@@ -218,6 +218,10 @@
      <property name="title">
       <string>Paramétrer</string>
      </property>
+     <property name="icon">
+      <iconset resource="ressourcesLecteur.qrc">
+       <normaloff>:/icon/icon/paramIcon.png</normaloff>:/icon/icon/paramIcon.png</iconset>
+     </property>
      <addaction name="actionVitesse"/>
      <addaction name="actionCharger_diaporama"/>
      <addaction name="actionEnlever_diaporama"/>
@@ -259,6 +263,10 @@
    </property>
   </action>
   <action name="actionVitesse">
+   <property name="icon">
+    <iconset resource="ressourcesLecteur.qrc">
+     <normaloff>:/icon/icon/speedIcon.png</normaloff>:/icon/icon/speedIcon.png</iconset>
+   </property>
    <property name="text">
     <string>Vitesse</string>
    </property>
@@ -267,6 +275,10 @@
    </property>
   </action>
   <action name="actionCharger_diaporama">
+   <property name="icon">
+    <iconset resource="ressourcesLecteur.qrc">
+     <normaloff>:/icon/icon/openIcon.png</normaloff>:/icon/icon/openIcon.png</iconset>
+   </property>
    <property name="text">
     <string>Charger diaporama</string>
    </property>
@@ -283,10 +295,6 @@
    </property>
   </action>
   <action name="actionMini_lecteur">
-   <property name="icon">
-    <iconset resource="ressourcesLecteur.qrc">
-     <normaloff>:/icon/icon/arreterIcon.png</normaloff>:/icon/icon/arreterIcon.png</iconset>
-   </property>
    <property name="text">
     <string>Mini-lecteur</string>
    </property>
