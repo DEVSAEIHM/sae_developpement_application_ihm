@@ -68,5 +68,6 @@
         <file>icon/paramIcon.png</file>
         <file>icon/speedIcon.png</file>
         <file>icon/settingIcon.png</file>
+        <file>icon/removeIcon.png</file>
     </qresource>
 </RCC>

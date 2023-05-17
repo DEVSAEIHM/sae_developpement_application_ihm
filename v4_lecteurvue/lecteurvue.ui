@@ -287,6 +287,10 @@
    </property>
   </action>
   <action name="actionEnlever_diaporama">
+   <property name="icon">
+    <iconset resource="ressourcesLecteur.qrc">
+     <normaloff>:/icon/icon/removeIcon.png</normaloff>:/icon/icon/removeIcon.png</iconset>
+   </property>
    <property name="text">
     <string>Enlever diaporama</string>
    </property>

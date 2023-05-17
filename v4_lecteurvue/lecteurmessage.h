@@ -9,7 +9,6 @@ class LecteurMessage : public QMessageBox
 public:
     LecteurMessage(QWidget *parent = nullptr);
     ~LecteurMessage();
-
 };
 
 #endif // LECTEURMESSAGE_H

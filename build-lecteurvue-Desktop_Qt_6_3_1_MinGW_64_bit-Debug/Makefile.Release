@@ -124,14 +124,15 @@ compiler_rcc_clean:
 	-$(DEL_FILE) release\qrc_ressourcesLecteur.cpp
 release/qrc_ressourcesLecteur.cpp: ../v4_lecteurvue/ressourcesLecteur.qrc \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/bin/rcc.exe \
-		../v4_lecteurvue/icon/speedIcon.png \
 		../v4_lecteurvue/icon/arreterIcon.png \
 		../v4_lecteurvue/icon/openIcon.png \
 		../v4_lecteurvue/icon/settingIcon.png \
-		../v4_lecteurvue/icon/lancerIcon.png \
+		../v4_lecteurvue/icon/speedIcon.png \
 		../v4_lecteurvue/icon/suivantIcon.png \
 		../v4_lecteurvue/icon/precedentIcon.png \
 		../v4_lecteurvue/icon/paramIcon.png \
+		../v4_lecteurvue/icon/removeIcon.png \
+		../v4_lecteurvue/icon/lancerIcon.png \
 		../v4_lecteurvue/images/Disney_32.gif \
 		../v4_lecteurvue/images/Disney_26.gif \
 		../v4_lecteurvue/images/Disney_tapis.gif \

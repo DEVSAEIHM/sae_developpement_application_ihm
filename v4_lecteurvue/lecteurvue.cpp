@@ -99,7 +99,7 @@ void LecteurVue::demandeChangerVitesse()
 
 void LecteurVue::demandeMiniLecteur()
 {
-    setMinimumSize(minimumSizeHint());
+    resize(minimumSize());
 }
 
 void LecteurVue::demandeImageSuivante()

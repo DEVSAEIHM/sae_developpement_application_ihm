@@ -83,6 +83,9 @@ public:
         actionCharger_diaporama->setIcon(icon1);
         actionEnlever_diaporama = new QAction(LecteurVue);
         actionEnlever_diaporama->setObjectName(QString::fromUtf8("actionEnlever_diaporama"));
+        QIcon icon2;
+        icon2.addFile(QString::fromUtf8(":/icon/icon/removeIcon.png"), QSize(), QIcon::Normal, QIcon::Off);
+        actionEnlever_diaporama->setIcon(icon2);
         actionMini_lecteur = new QAction(LecteurVue);
         actionMini_lecteur->setObjectName(QString::fromUtf8("actionMini_lecteur"));
         centralwidget = new QWidget(LecteurVue);
@@ -127,9 +130,9 @@ public:
 
         btnLancer = new QPushButton(centralwidget);
         btnLancer->setObjectName(QString::fromUtf8("btnLancer"));
-        QIcon icon2;
-        icon2.addFile(QString::fromUtf8(":/icon/icon/lancerIcon.png"), QSize(), QIcon::Normal, QIcon::Off);
-        btnLancer->setIcon(icon2);
+        QIcon icon3;
+        icon3.addFile(QString::fromUtf8(":/icon/icon/lancerIcon.png"), QSize(), QIcon::Normal, QIcon::Off);
+        btnLancer->setIcon(icon3);
 
         horizontalLayout_7->addWidget(btnLancer);
 
@@ -139,9 +142,9 @@ public:
 
         btnPrecedent = new QPushButton(centralwidget);
         btnPrecedent->setObjectName(QString::fromUtf8("btnPrecedent"));
-        QIcon icon3;
-        icon3.addFile(QString::fromUtf8(":/icon/icon/precedentIcon.png"), QSize(), QIcon::Normal, QIcon::Off);
-        btnPrecedent->setIcon(icon3);
+        QIcon icon4;
+        icon4.addFile(QString::fromUtf8(":/icon/icon/precedentIcon.png"), QSize(), QIcon::Normal, QIcon::Off);
+        btnPrecedent->setIcon(icon4);
 
         horizontalLayout_7->addWidget(btnPrecedent);
 
@@ -151,9 +154,9 @@ public:
 
         btnSuivant = new QPushButton(centralwidget);
         btnSuivant->setObjectName(QString::fromUtf8("btnSuivant"));
-        QIcon icon4;
-        icon4.addFile(QString::fromUtf8(":/icon/icon/suivantIcon.png"), QSize(), QIcon::Normal, QIcon::Off);
-        btnSuivant->setIcon(icon4);
+        QIcon icon5;
+        icon5.addFile(QString::fromUtf8(":/icon/icon/suivantIcon.png"), QSize(), QIcon::Normal, QIcon::Off);
+        btnSuivant->setIcon(icon5);
 
         horizontalLayout_7->addWidget(btnSuivant);
 
@@ -164,9 +167,9 @@ public:
         btnArreter = new QPushButton(centralwidget);
         btnArreter->setObjectName(QString::fromUtf8("btnArreter"));
         btnArreter->setEnabled(false);
-        QIcon icon5;
-        icon5.addFile(QString::fromUtf8(":/icon/icon/arreterIcon.png"), QSize(), QIcon::Normal, QIcon::Off);
-        btnArreter->setIcon(icon5);
+        QIcon icon6;
+        icon6.addFile(QString::fromUtf8(":/icon/icon/arreterIcon.png"), QSize(), QIcon::Normal, QIcon::Off);
+        btnArreter->setIcon(icon6);
 
         horizontalLayout_7->addWidget(btnArreter);
 
@@ -188,9 +191,9 @@ public:
         menu_Fichier->setObjectName(QString::fromUtf8("menu_Fichier"));
         menuParam_trer = new QMenu(menu_Fichier);
         menuParam_trer->setObjectName(QString::fromUtf8("menuParam_trer"));
-        QIcon icon6;
-        icon6.addFile(QString::fromUtf8(":/icon/icon/paramIcon.png"), QSize(), QIcon::Normal, QIcon::Off);
-        menuParam_trer->setIcon(icon6);
+        QIcon icon7;
+        icon7.addFile(QString::fromUtf8(":/icon/icon/paramIcon.png"), QSize(), QIcon::Normal, QIcon::Off);
+        menuParam_trer->setIcon(icon7);
         menu_Aide = new QMenu(menubar);
         menu_Aide->setObjectName(QString::fromUtf8("menu_Aide"));
         LecteurVue->setMenuBar(menubar);

@@ -14,12 +14,12 @@ class LecteurVitesse : public QDialog
 public:
     explicit LecteurVitesse(QWidget *parent = nullptr);
     ~LecteurVitesse();
-    int getValue() const;
+    int getValue() const; // Retourne la valeur de _value.
 public slots:
-    void setValue(int);
+    void setValue(int); // Affecte une nouvelle valeur à la donnée menbre _value
 private:
     Ui::LecteurVitesse *ui;
-    int _value;
+    int _value; // La valeur de la vitesse sélectionnée.
 };
 
 #endif // LECTEURVITESSE_H
