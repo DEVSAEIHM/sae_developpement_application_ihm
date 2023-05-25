@@ -15,7 +15,9 @@ LecteurVitesse::LecteurVitesse(QWidget *parent) :
 void LecteurVitesse::setValue(int n)
 {
     _value = n;
-    ui->lcd->display(_value);
+    QString lcdTxt;
+    lcdTxt.setNum(_value);
+    ui->lcd->setText(lcdTxt);
 }
 
 int LecteurVitesse::getValue() const

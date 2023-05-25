@@ -93,7 +93,7 @@ void LecteurVue::demandeChangerVitesse()
     if (retour == 1)
     {
         qDebug() << _vitesseDial->getValue();
-        _speed = _vitesseDial->getValue() * 1000;
+        _speed = _vitesseDial->getValue() * 100;
     }
 }
 

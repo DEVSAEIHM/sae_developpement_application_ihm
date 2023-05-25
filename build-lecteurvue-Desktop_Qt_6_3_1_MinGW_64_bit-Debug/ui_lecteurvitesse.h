@@ -14,7 +14,6 @@
 #include <QtWidgets/QDial>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QHBoxLayout>
-#include <QtWidgets/QLCDNumber>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSpacerItem>
@@ -32,7 +31,7 @@ public:
     QHBoxLayout *horizontalLayout;
     QPushButton *okBtn;
     QSpacerItem *horizontalSpacer;
-    QLCDNumber *lcd;
+    QLabel *lcd;
     QSpacerItem *horizontalSpacer_2;
     QPushButton *anBtn;
 
@@ -40,7 +39,7 @@ public:
     {
         if (LecteurVitesse->objectName().isEmpty())
             LecteurVitesse->setObjectName(QString::fromUtf8("LecteurVitesse"));
-        LecteurVitesse->resize(219, 172);
+        LecteurVitesse->resize(251, 172);
         verticalLayout_2 = new QVBoxLayout(LecteurVitesse);
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         verticalLayout = new QVBoxLayout();
@@ -48,6 +47,7 @@ public:
         label = new QLabel(LecteurVitesse);
         label->setObjectName(QString::fromUtf8("label"));
         QFont font;
+        font.setPointSize(9);
         font.setItalic(true);
         label->setFont(font);
         label->setTextFormat(Qt::PlainText);
@@ -58,8 +58,11 @@ public:
 
         dial = new QDial(LecteurVitesse);
         dial->setObjectName(QString::fromUtf8("dial"));
-        dial->setMinimum(1);
-        dial->setMaximum(30);
+        dial->setMinimum(2);
+        dial->setMaximum(38);
+        dial->setSingleStep(2);
+        dial->setPageStep(2);
+        dial->setSliderPosition(20);
         dial->setWrapping(false);
         dial->setNotchTarget(15.000000000000000);
         dial->setNotchesVisible(true);
@@ -77,9 +80,18 @@ public:
 
         horizontalLayout->addItem(horizontalSpacer);
 
-        lcd = new QLCDNumber(LecteurVitesse);
+        lcd = new QLabel(LecteurVitesse);
         lcd->setObjectName(QString::fromUtf8("lcd"));
-        lcd->setDigitCount(4);
+        QSizePolicy sizePolicy(QSizePolicy::Maximum, QSizePolicy::Preferred);
+        sizePolicy.setHorizontalStretch(9);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(lcd->sizePolicy().hasHeightForWidth());
+        lcd->setSizePolicy(sizePolicy);
+        lcd->setBaseSize(QSize(4, 0));
+        QFont font1;
+        font1.setFamilies({QString::fromUtf8("Terminal")});
+        font1.setPointSize(10);
+        lcd->setFont(font1);
 
         horizontalLayout->addWidget(lcd);
 
@@ -107,8 +119,9 @@ public:
     void retranslateUi(QDialog *LecteurVitesse)
     {
         LecteurVitesse->setWindowTitle(QCoreApplication::translate("LecteurVitesse", "Dialog", nullptr));
-        label->setText(QCoreApplication::translate("LecteurVitesse", "Tourner la molette pour modifier le temps en secondes", nullptr));
+        label->setText(QCoreApplication::translate("LecteurVitesse", "Tourner la molette pour modifier le temps en millisecondes", nullptr));
         okBtn->setText(QCoreApplication::translate("LecteurVitesse", "Ok", nullptr));
+        lcd->setText(QCoreApplication::translate("LecteurVitesse", "20", nullptr));
         anBtn->setText(QCoreApplication::translate("LecteurVitesse", "Annuler", nullptr));
     } // retranslateUi
 
