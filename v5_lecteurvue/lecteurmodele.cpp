@@ -1,8 +1,12 @@
 #include "lecteurmodele.h"
+#include <QSqlQuery>
+#include <QSqlRecord>
+#include <QSqlField>
 
 LecteurModele::LecteurModele()
 {
-    _numDiaporamaCourant = 0;   // =  le lecteur est vide
+    _dataBase = new Database;
+    _numDiaporamaCourant = 1;   // =  le lecteur est vide
 }
 
 void LecteurModele::avancer()
@@ -25,6 +29,30 @@ void LecteurModele::changerDiaporama(unsigned int pNumDiaporama)
     _numDiaporamaCourant = pNumDiaporama;
     if (numDiaporamaCourant() > 0)
     {
+        QSqlQuery query;
+        //query.prepare("SELECT titre Diaporama FROM Diaporamas WHERE idDiaporama = :num");
+        //query.addBindValue(pNumDiaporama);
+        //query.exec();
+
+        //query.prepare("SELECT titre Diaporama FROM Diaporamas WHERE idDiaporama = :num");
+        //query.bindValue(":num", pNumDiaporama);
+        //query.exec();
+
+        //query.prepare("SELECT titre Diaporama FROM Diaporamas WHERE idDiaporama = (?) ");
+
+        //QVariantList ints;
+        //ints << pNumDiaporama;
+        //query.addBindValue(ints);
+        //query.execBatch();
+
+        query.exec(QString{"SELECT * FROM Diaporamas WHERE idDiaporama = %1"}.arg(pNumDiaporama));
+
+
+        QSqlRecord rec = query.record();
+        for (int i = 0; query.next(); i++) {
+            qDebug() << query.value(1) << Qt::endl;
+        }
+
         chargerDiaporama(); // charge le diaporama courant
     }
 

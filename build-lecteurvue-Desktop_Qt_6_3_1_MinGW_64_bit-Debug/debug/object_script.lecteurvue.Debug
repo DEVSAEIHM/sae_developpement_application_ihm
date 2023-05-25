@@ -1,3 +1,4 @@
+debug/database.o
 debug/image.o
 debug/lecteurmessage.o
 debug/lecteurmodele.o

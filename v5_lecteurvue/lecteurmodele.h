@@ -2,6 +2,7 @@
 #define LECTEURMODELE_H
 
 #include "image.h"
+#include "database.h"
 #include <vector>
 
 typedef vector<Image*> Diaporama;   // Structure de données contenant les infos sur les images
@@ -19,6 +20,7 @@ public:
     unsigned int numDiaporamaCourant();
 
 private:
+    Database *_dataBase; // La base de donnée contenant les informations des images
     unsigned _numDiaporamaCourant;   // numéro du diaporama courant, par défaut 0
     Diaporama _diaporama;            // pointeurs vers les images du diaporama
     unsigned int _posImageCourante;  /* position, dans le diaporama,

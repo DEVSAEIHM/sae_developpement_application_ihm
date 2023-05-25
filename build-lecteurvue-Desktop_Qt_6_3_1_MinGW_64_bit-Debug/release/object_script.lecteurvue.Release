@@ -1,3 +1,4 @@
+release/database.o
 release/image.o
 release/lecteurmessage.o
 release/lecteurmodele.o

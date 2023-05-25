@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 #include <memory>
-#include "../../v4_lecteurvue/lecteurvue.h"
+#include "../../v5_lecteurvue/lecteurvue.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
