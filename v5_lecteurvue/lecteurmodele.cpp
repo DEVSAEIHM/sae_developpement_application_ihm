@@ -30,28 +30,10 @@ void LecteurModele::changerDiaporama(unsigned int pNumDiaporama)
     if (numDiaporamaCourant() > 0)
     {
         QSqlQuery query;
-        //query.prepare("SELECT titre Diaporama FROM Diaporamas WHERE idDiaporama = :num");
-        //query.addBindValue(pNumDiaporama);
-        //query.exec();
+//        query.prepare("SELECT * FROM Diapos WHERE idphoto = :id AND idFam = :idf ");
+//        query.bindValue(":id", 2);
+//        query.bindValue(":idf", 3);
 
-        //query.prepare("SELECT titre Diaporama FROM Diaporamas WHERE idDiaporama = :num");
-        //query.bindValue(":num", pNumDiaporama);
-        //query.exec();
-
-        //query.prepare("SELECT titre Diaporama FROM Diaporamas WHERE idDiaporama = (?) ");
-
-        //QVariantList ints;
-        //ints << pNumDiaporama;
-        //query.addBindValue(ints);
-        //query.execBatch();
-
-        query.exec(QString{"SELECT * FROM Diaporamas WHERE idDiaporama = %1"}.arg(pNumDiaporama));
-
-
-        QSqlRecord rec = query.record();
-        for (int i = 0; query.next(); i++) {
-            qDebug() << query.value(1) << Qt::endl;
-        }
 
         chargerDiaporama(); // charge le diaporama courant
     }
@@ -86,10 +68,23 @@ void LecteurModele::triDiaporama()
 
 void LecteurModele::chargerDiaporama()
 {
+    Image* imageACharger;
     /* Chargement des images associées au diaporama courant
        Dans une version ultérieure, ces données proviendront d'une base de données,
        et correspondront au diaporama choisi */
-    Image* imageACharger;
+    QSqlQuery query;
+    query.prepare("SELECT DDD.rang, Ds.titrePhoto, Ds.uriPhoto FROM DiaposDansDiaporama DDD JOIN Diaporamas Dps ON DDD.idDiaporama = Dps.idDiaporama JOIN Diapos Ds ON DDD.idDiapo = Ds.idphoto WHERE DDD.idDiaporama = :id");
+    query.bindValue(":id", _numDiaporamaCourant);
+    query.exec();
+    QSqlRecord rec = query.record();
+    int count = rec.count();
+    for (int i = 0; query.next(); i++) {
+        imageACharger = new Image(query.value(0).toInt(), "personne", query.value(1).toString().toStdString(), query.value(2).toString().toStdString());
+        qDebug() << query.value(1);
+        _diaporama.push_back(imageACharger);
+    }
+
+/*
     imageACharger = new Image(3, "personne", "Blanche Neige", ":/images/images/Disney_3.gif");
     _diaporama.push_back(imageACharger);
     imageACharger = new Image(2, "personne", "Cendrillon", ":/images/images/Disney_2.gif");
@@ -98,7 +93,7 @@ void LecteurModele::chargerDiaporama()
     _diaporama.push_back(imageACharger);
     imageACharger = new Image(1, "personne", "Grincheux", ":/images/images/Disney_1.gif");
     _diaporama.push_back(imageACharger);
-
+*/
 
      // trie du contenu du diaporama par ordre croissant selon le rang de l'image dans le diaporama
     (*this).triDiaporama();
