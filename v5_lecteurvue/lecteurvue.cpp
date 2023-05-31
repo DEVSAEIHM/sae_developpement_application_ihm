@@ -73,6 +73,7 @@ void LecteurVue::demandeChargerDiapo()
     ui->btnPrecedent->setEnabled(true);
     ui->btnSuivant->setEnabled(true);
     demandeMajIntitule();
+    demandeMajStatusBar();
 }
 
 void LecteurVue::demandeEnleverDiapo()

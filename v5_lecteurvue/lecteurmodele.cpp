@@ -37,7 +37,7 @@ void LecteurModele::changerDiaporama(unsigned int pNumDiaporama)
 unsigned int LecteurModele::positionDuMax(unsigned int deb, unsigned int fin)
 {
     unsigned int posMax = deb;
-    for (unsigned int i=deb+1; i<fin; i++)
+    for (unsigned int i=deb+1; i <= fin; i++)
     {
         if (_diaporama[i]->getRang() > _diaporama[posMax]->getRang())
         {
@@ -51,7 +51,7 @@ void LecteurModele::triDiaporama()
 {
     unsigned int pos;
     Image* valAux;
-    for (unsigned int i=nbImages()-1; i>1; i--)
+    for (unsigned int i=nbImages()-1; i>0; i--)
     {
         pos = (*this).positionDuMax(0,i);
         valAux = _diaporama[pos];
