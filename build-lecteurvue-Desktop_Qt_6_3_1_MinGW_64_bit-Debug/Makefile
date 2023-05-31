@@ -314,7 +314,7 @@ Makefile: ../v5_lecteurvue/lecteurvue.pro C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/w
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/lib/Qt6Core.prl \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/lib/Qt6EntryPoint.prl \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/features/build_pass.prf \
-		../v5_lecteurvue/ressourcesLecteur.qrc
+		../v5_lecteurvue/ressourcesDiapo.qrc
 	$(QMAKE) -o Makefile ..\v5_lecteurvue\lecteurvue.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/features/spec_pre.prf:
 C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/features/device_config.prf:
@@ -560,7 +560,7 @@ C:/Qt/Qt6.3.1/6.3.1/mingw_64/lib/Qt6Sql.prl:
 C:/Qt/Qt6.3.1/6.3.1/mingw_64/lib/Qt6Core.prl:
 C:/Qt/Qt6.3.1/6.3.1/mingw_64/lib/Qt6EntryPoint.prl:
 C:/Qt/Qt6.3.1/6.3.1/mingw_64/mkspecs/features/build_pass.prf:
-../v5_lecteurvue/ressourcesLecteur.qrc:
+../v5_lecteurvue/ressourcesDiapo.qrc:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\v5_lecteurvue\lecteurvue.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 

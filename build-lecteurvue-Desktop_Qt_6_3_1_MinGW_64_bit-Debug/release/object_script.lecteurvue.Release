@@ -5,7 +5,7 @@ release/lecteurmodele.o
 release/lecteurvitesse.o
 release/main.o
 release/lecteurvue.o
-release/qrc_ressourcesLecteur.o
+release/qrc_ressourcesDiapo.o
 release/moc_lecteurmessage.o
 release/moc_lecteurvitesse.o
 release/moc_lecteurvue.o

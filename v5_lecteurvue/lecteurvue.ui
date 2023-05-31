@@ -102,8 +102,8 @@
            <string>&amp;Lancer</string>
           </property>
           <property name="icon">
-           <iconset resource="ressourcesLecteur.qrc">
-            <normaloff>:/icon/icon/lancerIcon.png</normaloff>:/icon/icon/lancerIcon.png</iconset>
+           <iconset resource="ressourcesDiapo.qrc">
+            <normaloff>:/icon/lancerIcon.png</normaloff>:/icon/lancerIcon.png</iconset>
           </property>
          </widget>
         </item>
@@ -126,8 +126,8 @@
            <string>&amp;Précédent</string>
           </property>
           <property name="icon">
-           <iconset resource="ressourcesLecteur.qrc">
-            <normaloff>:/icon/icon/precedentIcon.png</normaloff>:/icon/icon/precedentIcon.png</iconset>
+           <iconset resource="ressourcesDiapo.qrc">
+            <normaloff>:/icon/precedentIcon.png</normaloff>:/icon/precedentIcon.png</iconset>
           </property>
          </widget>
         </item>
@@ -150,8 +150,8 @@
            <string>&amp;Suivant</string>
           </property>
           <property name="icon">
-           <iconset resource="ressourcesLecteur.qrc">
-            <normaloff>:/icon/icon/suivantIcon.png</normaloff>:/icon/icon/suivantIcon.png</iconset>
+           <iconset resource="ressourcesDiapo.qrc">
+            <normaloff>:/icon/suivantIcon.png</normaloff>:/icon/suivantIcon.png</iconset>
           </property>
          </widget>
         </item>
@@ -177,8 +177,8 @@
            <string>&amp;Arrêter</string>
           </property>
           <property name="icon">
-           <iconset resource="ressourcesLecteur.qrc">
-            <normaloff>:/icon/icon/arreterIcon.png</normaloff>:/icon/icon/arreterIcon.png</iconset>
+           <iconset resource="ressourcesDiapo.qrc">
+            <normaloff>:/icon/arreterIcon.png</normaloff>:/icon/arreterIcon.png</iconset>
           </property>
          </widget>
         </item>
@@ -219,8 +219,8 @@
       <string>Paramétrer</string>
      </property>
      <property name="icon">
-      <iconset resource="ressourcesLecteur.qrc">
-       <normaloff>:/icon/icon/paramIcon.png</normaloff>:/icon/icon/paramIcon.png</iconset>
+      <iconset resource="ressourcesDiapo.qrc">
+       <normaloff>:/icon/paramIcon.png</normaloff>:/icon/paramIcon.png</iconset>
      </property>
      <addaction name="actionVitesse"/>
      <addaction name="actionCharger_diaporama"/>
@@ -264,8 +264,8 @@
   </action>
   <action name="actionVitesse">
    <property name="icon">
-    <iconset resource="ressourcesLecteur.qrc">
-     <normaloff>:/icon/icon/speedIcon.png</normaloff>:/icon/icon/speedIcon.png</iconset>
+    <iconset resource="ressourcesDiapo.qrc">
+     <normaloff>:/icon/speedIcon.png</normaloff>:/icon/speedIcon.png</iconset>
    </property>
    <property name="text">
     <string>Vitesse</string>
@@ -276,8 +276,8 @@
   </action>
   <action name="actionCharger_diaporama">
    <property name="icon">
-    <iconset resource="ressourcesLecteur.qrc">
-     <normaloff>:/icon/icon/openIcon.png</normaloff>:/icon/icon/openIcon.png</iconset>
+    <iconset resource="ressourcesDiapo.qrc">
+     <normaloff>:/icon/openIcon.png</normaloff>:/icon/openIcon.png</iconset>
    </property>
    <property name="text">
     <string>Charger diaporama</string>
@@ -288,8 +288,8 @@
   </action>
   <action name="actionEnlever_diaporama">
    <property name="icon">
-    <iconset resource="ressourcesLecteur.qrc">
-     <normaloff>:/icon/icon/removeIcon.png</normaloff>:/icon/icon/removeIcon.png</iconset>
+    <iconset resource="ressourcesDiapo.qrc">
+     <normaloff>:/icon/removeIcon.png</normaloff>:/icon/removeIcon.png</iconset>
    </property>
    <property name="text">
     <string>Enlever diaporama</string>
@@ -308,7 +308,7 @@
   </action>
  </widget>
  <resources>
-  <include location="ressourcesLecteur.qrc"/>
+  <include location="ressourcesDiapo.qrc"/>
  </resources>
  <connections/>
 </ui>
