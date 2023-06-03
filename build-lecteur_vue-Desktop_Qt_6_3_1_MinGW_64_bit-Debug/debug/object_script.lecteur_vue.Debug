@@ -1,0 +1,13 @@
+debug/database.o
+debug/image.o
+debug/lecteur_choix_diapo.o
+debug/lecteur_message.o
+debug/lecteur_modele.o
+debug/lecteur_vitesse.o
+debug/lecteur_vue.o
+debug/main.o
+debug/qrc_ressourcesDiapo.o
+debug/moc_lecteur_choix_diapo.o
+debug/moc_lecteur_message.o
+debug/moc_lecteur_vitesse.o
+debug/moc_lecteur_vue.o
