@@ -11,6 +11,7 @@ CONFIG += c++17
 
 SOURCES += \
     database.cpp \
+    diaporama.cpp \
     image.cpp \
     lecteur_choix_diapo.cpp \
     lecteur_message.cpp \
@@ -21,6 +22,7 @@ SOURCES += \
 
 HEADERS += \
     database.h \
+    diaporama.h \
     image.h \
     lecteur_choix_diapo.h \
     lecteur_message.h \

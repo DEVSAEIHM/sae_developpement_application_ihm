@@ -1,4 +1,5 @@
 release/database.o
+release/diaporama.o
 release/image.o
 release/lecteur_choix_diapo.o
 release/lecteur_message.o

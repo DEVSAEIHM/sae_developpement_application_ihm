@@ -1,4 +1,5 @@
 debug/database.o
+debug/diaporama.o
 debug/image.o
 debug/lecteur_choix_diapo.o
 debug/lecteur_message.o

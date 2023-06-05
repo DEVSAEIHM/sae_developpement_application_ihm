@@ -6,7 +6,6 @@
 LecteurModele::LecteurModele()
 {
     _dataBase = new Database;
-    _numDiaporamaCourant = 1;   // =  le lecteur est vide
 }
 
 void LecteurModele::avancer()
@@ -112,23 +111,6 @@ void LecteurModele::viderDiaporama()
     }
     //cout << nbImages() << " images restantes dans le diaporama." << endl;
 
-}
-
-void LecteurModele::afficher()
-{
-    /* affiche les information sur le lecteur :
-     * 1) vide (si num. de diaporama = 0) OU BIEN  numéro de diaporama affiché
-     * 2) Si un diaporama courant est chargé (num. de diaporama > 0), affiche l'image courante OU BIEN 'diaporama vide'
-     *     si ce diaporama n'a aucun image */
-    if (numDiaporamaCourant() > 0)
-    {
-        //cout << "Diaporama num. " << numDiaporamaCourant() << endl;
-        imageCourante()->Image::afficher();
-    }
-    else
-    {
-        //cout << "Lecteur vide" << endl;
-    }
 }
 
 unsigned int LecteurModele::nbImages()
