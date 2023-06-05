@@ -1,15 +1,30 @@
 #include "diaporama.h"
 
-Diaporama::Diaporama(int num,const char* nom) :
-    _numDiaporamaCourant(num)
+Diaporama::Diaporama()
 {
-    _nomDiapo = new char[strlen(nom)-1];
-    strcpy(_nomDiapo, nom);
+    _posImageCourante = 0;
 }
 
 Diaporama::~Diaporama()
 {
 
+}
+
+void Diaporama::ajouterImage(int rang, string famille, string titre, string uri)
+{
+    Image* imageACharger;
+    imageACharger = new Image(rang, famille, titre, uri);
+    _diaporama.push_back(imageACharger);
+}
+
+void Diaporama::avancerImageCourante()
+{
+    _posImageCourante = _posImageCourante == nbImages()-1 ? 0 : _posImageCourante +1;
+}
+
+void Diaporama::reculerImageCourante()
+{
+    _posImageCourante = _posImageCourante == 0 ? nbImages()-1 : _posImageCourante -1;
 }
 
 unsigned int Diaporama::positionDuMax(unsigned int deb, unsigned int fin)
@@ -51,8 +66,6 @@ void Diaporama::viderDiaporama()
         }
      _posImageCourante = 0;
     }
-    //cout << nbImages() << " images restantes dans le diaporama." << endl;
-
 }
 
 unsigned int Diaporama::nbImages()
@@ -65,7 +78,3 @@ Image *Diaporama::imageCourante()
     return _diaporama[_posImageCourante];
 }
 
-unsigned int Diaporama::numDiaporamaCourant()
-{
-    return _numDiaporamaCourant;
-}

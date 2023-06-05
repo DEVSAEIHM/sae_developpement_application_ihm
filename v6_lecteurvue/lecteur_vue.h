@@ -38,6 +38,7 @@ private:
     QTimer *_timer; // Pointeur sur le timer utilisé pour la lecture en mode Auto
     int _speed; // La fréquence de battement du timer.
     int _currentNumDiapo = -1; // Le numero du diaporama en cours.
+    const char* _currentNomDiapo = "Unnamed"; // Le nom du diaporama en cours.
 
 private slots:
     void demandeLancer(); // Lance la lecture du diaporama en mode Auto

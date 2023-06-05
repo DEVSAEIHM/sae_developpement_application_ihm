@@ -101,7 +101,10 @@ void LecteurVue::demandeEnleverDiapo()
 {
     qDebug() << "enlever diapo";
     _timer->stop();
-    _scene->removeItem(_item);
+    if (_scene->items().isEmpty() == false)
+    {
+        _scene->removeItem(_item);
+    }
     desactiverToutBoutons();
     _modele->changerDiaporama(0);
     demandeMajIntitule();
