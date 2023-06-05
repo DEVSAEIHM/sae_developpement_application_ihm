@@ -9,7 +9,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-waipfM\\clang-uiheader-PRthUC",
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-KSMPGN\\clang-uiheader-OWptvH",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -34,7 +34,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP",
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -72,10 +72,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP\\database.cpp"
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue\\database.cpp"
     ],
     "directory": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/courBut/semestre2/s201/v7_lecteurvue_MVP/database.cpp"
+    "file": "F:/courBut/semestre2/s201/v6_lecteurvue/database.cpp"
 },
 {
     "arguments": [
@@ -87,7 +87,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-waipfM\\clang-uiheader-PRthUC",
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-KSMPGN\\clang-uiheader-OWptvH",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -112,7 +112,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP",
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -150,10 +150,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP\\diaporama.cpp"
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue\\diaporama.cpp"
     ],
     "directory": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/courBut/semestre2/s201/v7_lecteurvue_MVP/diaporama.cpp"
+    "file": "F:/courBut/semestre2/s201/v6_lecteurvue/diaporama.cpp"
 },
 {
     "arguments": [
@@ -165,7 +165,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-waipfM\\clang-uiheader-PRthUC",
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-KSMPGN\\clang-uiheader-OWptvH",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -190,7 +190,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP",
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -228,10 +228,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP\\image.cpp"
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue\\image.cpp"
     ],
     "directory": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/courBut/semestre2/s201/v7_lecteurvue_MVP/image.cpp"
+    "file": "F:/courBut/semestre2/s201/v6_lecteurvue/image.cpp"
 },
 {
     "arguments": [
@@ -243,7 +243,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-waipfM\\clang-uiheader-PRthUC",
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-KSMPGN\\clang-uiheader-OWptvH",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -268,7 +268,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP",
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -306,10 +306,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP\\lecteur_choix_diapo.cpp"
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue\\lecteur_choix_diapo.cpp"
     ],
     "directory": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/courBut/semestre2/s201/v7_lecteurvue_MVP/lecteur_choix_diapo.cpp"
+    "file": "F:/courBut/semestre2/s201/v6_lecteurvue/lecteur_choix_diapo.cpp"
 },
 {
     "arguments": [
@@ -321,7 +321,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-waipfM\\clang-uiheader-PRthUC",
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-KSMPGN\\clang-uiheader-OWptvH",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -346,7 +346,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP",
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -384,10 +384,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP\\lecteur_message.cpp"
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue\\lecteur_message.cpp"
     ],
     "directory": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/courBut/semestre2/s201/v7_lecteurvue_MVP/lecteur_message.cpp"
+    "file": "F:/courBut/semestre2/s201/v6_lecteurvue/lecteur_message.cpp"
 },
 {
     "arguments": [
@@ -399,7 +399,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-waipfM\\clang-uiheader-PRthUC",
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-KSMPGN\\clang-uiheader-OWptvH",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -424,7 +424,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP",
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -462,10 +462,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP\\lecteur_modele.cpp"
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue\\lecteur_modele.cpp"
     ],
     "directory": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/courBut/semestre2/s201/v7_lecteurvue_MVP/lecteur_modele.cpp"
+    "file": "F:/courBut/semestre2/s201/v6_lecteurvue/lecteur_modele.cpp"
 },
 {
     "arguments": [
@@ -477,7 +477,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-waipfM\\clang-uiheader-PRthUC",
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-KSMPGN\\clang-uiheader-OWptvH",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -502,7 +502,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP",
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -540,10 +540,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP\\lecteur_vitesse.cpp"
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue\\lecteur_vitesse.cpp"
     ],
     "directory": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/courBut/semestre2/s201/v7_lecteurvue_MVP/lecteur_vitesse.cpp"
+    "file": "F:/courBut/semestre2/s201/v6_lecteurvue/lecteur_vitesse.cpp"
 },
 {
     "arguments": [
@@ -555,7 +555,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-waipfM\\clang-uiheader-PRthUC",
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-KSMPGN\\clang-uiheader-OWptvH",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -580,7 +580,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP",
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -618,10 +618,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP\\lecteur_vue.cpp"
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue\\lecteur_vue.cpp"
     ],
     "directory": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/courBut/semestre2/s201/v7_lecteurvue_MVP/lecteur_vue.cpp"
+    "file": "F:/courBut/semestre2/s201/v6_lecteurvue/lecteur_vue.cpp"
 },
 {
     "arguments": [
@@ -633,7 +633,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-waipfM\\clang-uiheader-PRthUC",
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-KSMPGN\\clang-uiheader-OWptvH",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -658,7 +658,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP",
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -696,10 +696,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP\\main.cpp"
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue\\main.cpp"
     ],
     "directory": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/courBut/semestre2/s201/v7_lecteurvue_MVP/main.cpp"
+    "file": "F:/courBut/semestre2/s201/v6_lecteurvue/main.cpp"
 },
 {
     "arguments": [
@@ -711,7 +711,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-waipfM\\clang-uiheader-PRthUC",
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-KSMPGN\\clang-uiheader-OWptvH",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -736,7 +736,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP",
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -774,10 +774,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP\\database.h"
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue\\database.h"
     ],
     "directory": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/courBut/semestre2/s201/v7_lecteurvue_MVP/database.h"
+    "file": "F:/courBut/semestre2/s201/v6_lecteurvue/database.h"
 },
 {
     "arguments": [
@@ -789,7 +789,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-waipfM\\clang-uiheader-PRthUC",
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-KSMPGN\\clang-uiheader-OWptvH",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -814,7 +814,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP",
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -852,10 +852,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP\\diaporama.h"
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue\\diaporama.h"
     ],
     "directory": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/courBut/semestre2/s201/v7_lecteurvue_MVP/diaporama.h"
+    "file": "F:/courBut/semestre2/s201/v6_lecteurvue/diaporama.h"
 },
 {
     "arguments": [
@@ -867,7 +867,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-waipfM\\clang-uiheader-PRthUC",
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-KSMPGN\\clang-uiheader-OWptvH",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -892,7 +892,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP",
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -930,10 +930,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP\\image.h"
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue\\image.h"
     ],
     "directory": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/courBut/semestre2/s201/v7_lecteurvue_MVP/image.h"
+    "file": "F:/courBut/semestre2/s201/v6_lecteurvue/image.h"
 },
 {
     "arguments": [
@@ -945,7 +945,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-waipfM\\clang-uiheader-PRthUC",
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-KSMPGN\\clang-uiheader-OWptvH",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -970,7 +970,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP",
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1008,10 +1008,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP\\lecteur_choix_diapo.h"
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue\\lecteur_choix_diapo.h"
     ],
     "directory": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/courBut/semestre2/s201/v7_lecteurvue_MVP/lecteur_choix_diapo.h"
+    "file": "F:/courBut/semestre2/s201/v6_lecteurvue/lecteur_choix_diapo.h"
 },
 {
     "arguments": [
@@ -1023,7 +1023,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-waipfM\\clang-uiheader-PRthUC",
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-KSMPGN\\clang-uiheader-OWptvH",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1048,7 +1048,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP",
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1086,10 +1086,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP\\lecteur_message.h"
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue\\lecteur_message.h"
     ],
     "directory": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/courBut/semestre2/s201/v7_lecteurvue_MVP/lecteur_message.h"
+    "file": "F:/courBut/semestre2/s201/v6_lecteurvue/lecteur_message.h"
 },
 {
     "arguments": [
@@ -1101,7 +1101,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-waipfM\\clang-uiheader-PRthUC",
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-KSMPGN\\clang-uiheader-OWptvH",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1126,7 +1126,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP",
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1164,10 +1164,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP\\lecteur_modele.h"
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue\\lecteur_modele.h"
     ],
     "directory": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/courBut/semestre2/s201/v7_lecteurvue_MVP/lecteur_modele.h"
+    "file": "F:/courBut/semestre2/s201/v6_lecteurvue/lecteur_modele.h"
 },
 {
     "arguments": [
@@ -1179,7 +1179,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-waipfM\\clang-uiheader-PRthUC",
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-KSMPGN\\clang-uiheader-OWptvH",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1204,7 +1204,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP",
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1242,10 +1242,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP\\lecteur_vitesse.h"
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue\\lecteur_vitesse.h"
     ],
     "directory": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/courBut/semestre2/s201/v7_lecteurvue_MVP/lecteur_vitesse.h"
+    "file": "F:/courBut/semestre2/s201/v6_lecteurvue/lecteur_vitesse.h"
 },
 {
     "arguments": [
@@ -1257,7 +1257,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-waipfM\\clang-uiheader-PRthUC",
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-KSMPGN\\clang-uiheader-OWptvH",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1282,7 +1282,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP",
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1320,10 +1320,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP\\lecteur_vue.h"
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue\\lecteur_vue.h"
     ],
     "directory": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/courBut/semestre2/s201/v7_lecteurvue_MVP/lecteur_vue.h"
+    "file": "F:/courBut/semestre2/s201/v6_lecteurvue/lecteur_vue.h"
 },
 {
     "arguments": [
@@ -1335,7 +1335,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-waipfM\\clang-uiheader-PRthUC",
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-KSMPGN\\clang-uiheader-OWptvH",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1360,85 +1360,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP",
-        "-I",
-        "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
-        "-I",
-        "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtWidgets",
-        "-I",
-        "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtGui",
-        "-I",
-        "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtSql",
-        "-I",
-        "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtCore",
-        "-I",
-        "F:\\courBut\\semestre2\\s201\\build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
-        "-I",
-        "F:\\courBut\\semestre2\\s201\\build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
-        "-I",
-        "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
-        "-isystem",
-        "C:\\Qt\\Qt6.3.1\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
-        "-isystem",
-        "C:\\Qt\\Qt6.3.1\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++\\x86_64-w64-mingw32",
-        "-isystem",
-        "C:\\Qt\\Qt6.3.1\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++\\backward",
-        "-isystem",
-        "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\bin\\clang\\lib\\clang\\14.0.3\\include",
-        "-isystem",
-        "C:\\Qt\\Qt6.3.1\\Tools\\mingw1120_64\\x86_64-w64-mingw32\\include",
-        "-fmessage-length=0",
-        "-fdiagnostics-show-note-include-stack",
-        "-fretain-comments-from-system-headers",
-        "-fmacro-backtrace-limit=0",
-        "-ferror-limit=1000",
-        "-x",
-        "c++-header",
-        "-Wno-unknown-pragmas",
-        "-Wno-unknown-warning-option",
-        "-Wno-documentation-unknown-command",
-        "-fno-delayed-template-parsing",
-        "F:\\courBut\\semestre2\\s201\\build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_lecteur_vue.h"
-    ],
-    "directory": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_lecteur_vue.h"
-},
-{
-    "arguments": [
-        "clang",
-        "-I",
-        "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
-        "-I",
-        "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
-        "-I",
-        "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-I",
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-waipfM\\clang-uiheader-PRthUC",
-        "-nostdinc",
-        "-nostdinc++",
-        "-g",
-        "-std=gnu++1z",
-        "-Wall",
-        "-Wextra",
-        "-Wextra",
-        "-fexceptions",
-        "-mthreads",
-        "-fsyntax-only",
-        "-m64",
-        "--target=x86_64-w64-mingw32",
-        "-DQ_CREATOR_RUN",
-        "-DUNICODE",
-        "-D_UNICODE",
-        "-DWIN32",
-        "-DMINGW_HAS_SECURE_API",
-        "-DQT_QML_DEBUG",
-        "-DQT_WIDGETS_LIB",
-        "-DQT_GUI_LIB",
-        "-DQT_SQL_LIB",
-        "-DQT_CORE_LIB",
-        "-DQT_NEEDS_QMAIN",
-        "-I",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP",
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -1491,7 +1413,7 @@
         "-I",
         "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
         "-I",
-        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-waipfM\\clang-uiheader-PRthUC",
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-KSMPGN\\clang-uiheader-OWptvH",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -1516,7 +1438,85 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\courBut\\semestre2\\s201\\v7_lecteurvue_MVP",
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue",
+        "-I",
+        "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
+        "-I",
+        "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtWidgets",
+        "-I",
+        "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtGui",
+        "-I",
+        "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtSql",
+        "-I",
+        "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include\\QtCore",
+        "-I",
+        "F:\\courBut\\semestre2\\s201\\build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\debug",
+        "-I",
+        "F:\\courBut\\semestre2\\s201\\build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug",
+        "-I",
+        "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\mkspecs\\win32-g++",
+        "-isystem",
+        "C:\\Qt\\Qt6.3.1\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
+        "-isystem",
+        "C:\\Qt\\Qt6.3.1\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++\\x86_64-w64-mingw32",
+        "-isystem",
+        "C:\\Qt\\Qt6.3.1\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++\\backward",
+        "-isystem",
+        "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\bin\\clang\\lib\\clang\\14.0.3\\include",
+        "-isystem",
+        "C:\\Qt\\Qt6.3.1\\Tools\\mingw1120_64\\x86_64-w64-mingw32\\include",
+        "-fmessage-length=0",
+        "-fdiagnostics-show-note-include-stack",
+        "-fretain-comments-from-system-headers",
+        "-fmacro-backtrace-limit=0",
+        "-ferror-limit=1000",
+        "-x",
+        "c++-header",
+        "-Wno-unknown-pragmas",
+        "-Wno-unknown-warning-option",
+        "-Wno-documentation-unknown-command",
+        "-fno-delayed-template-parsing",
+        "F:\\courBut\\semestre2\\s201\\build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug\\ui_lecteur_vue.h"
+    ],
+    "directory": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "F:/courBut/semestre2/s201/build-lecteur_vue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/ui_lecteur_vue.h"
+},
+{
+    "arguments": [
+        "clang",
+        "-I",
+        "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
+        "-I",
+        "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
+        "-I",
+        "C:\\Qt\\Qt6.3.1\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
+        "-I",
+        "C:\\Users\\local_rlaborde003\\Temp\\QtCreator-KSMPGN\\clang-uiheader-OWptvH",
+        "-nostdinc",
+        "-nostdinc++",
+        "-g",
+        "-std=gnu++1z",
+        "-Wall",
+        "-Wextra",
+        "-Wextra",
+        "-fexceptions",
+        "-mthreads",
+        "-fsyntax-only",
+        "-m64",
+        "--target=x86_64-w64-mingw32",
+        "-DQ_CREATOR_RUN",
+        "-DUNICODE",
+        "-D_UNICODE",
+        "-DWIN32",
+        "-DMINGW_HAS_SECURE_API",
+        "-DQT_QML_DEBUG",
+        "-DQT_WIDGETS_LIB",
+        "-DQT_GUI_LIB",
+        "-DQT_SQL_LIB",
+        "-DQT_CORE_LIB",
+        "-DQT_NEEDS_QMAIN",
+        "-I",
+        "F:\\courBut\\semestre2\\s201\\v6_lecteurvue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",

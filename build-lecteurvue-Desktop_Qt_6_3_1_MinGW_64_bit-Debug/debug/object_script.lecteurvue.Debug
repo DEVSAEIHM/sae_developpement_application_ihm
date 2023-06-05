@@ -1,11 +1,10 @@
-debug/database.o
 debug/image.o
 debug/lecteurmessage.o
 debug/lecteurmodele.o
 debug/lecteurvitesse.o
 debug/main.o
 debug/lecteurvue.o
-debug/qrc_ressourcesDiapo.o
+debug/qrc_ressourcesLecteur.o
 debug/moc_lecteurmessage.o
 debug/moc_lecteurvitesse.o
 debug/moc_lecteurvue.o
