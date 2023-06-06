@@ -1,2 +1,5 @@
 Chemin d'accès au ressources
 :/cartesDisney/nom_image.gif
+
+
+/!\ La version 7 base de donnée n'a pas été testé car nous avons pas les droits de modifications sur la BD

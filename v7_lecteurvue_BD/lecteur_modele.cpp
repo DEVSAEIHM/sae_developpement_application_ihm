@@ -48,6 +48,17 @@ QStringList LecteurModele::getNomDiapo()
     return nomsDiapo;
 }
 
+void LecteurModele::modifierTitreImage(QString str)
+{
+    QSqlQuery query;
+    string titreImg = _diaporama.imageCourante()->getTitre();
+    QString titre = QString::fromStdString(titreImg);
+    query.prepare("UPDATE Diapos SET titrePhoto = :D WHERE titrePhoto = :A");
+    query.bindValue(":D",str);
+    query.bindValue(":A",titre);
+    query.exec();
+}
+
 void LecteurModele::chargerDiaporama()
 {
     //Diaporama _diaporama(_numDiaporamaCourant, _nomDiaporamaCourant);

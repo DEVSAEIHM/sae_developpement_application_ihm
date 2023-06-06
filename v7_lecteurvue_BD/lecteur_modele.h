@@ -16,7 +16,8 @@ public:
     unsigned int nbImages();    // affiche la taille de _diaporama
     Image* imageCourante();     // retourne le pointeur vers l'image courante
     unsigned int numDiaporamaCourant();
-    QStringList getNomDiapo();
+    QStringList getNomDiapo(); // Retourne le noms des diaporama
+    void modifierTitreImage(QString); // Modifie le titre de l'image courante
 
 private:
     Database *_dataBase; // La base de donnée contenant les informations des images

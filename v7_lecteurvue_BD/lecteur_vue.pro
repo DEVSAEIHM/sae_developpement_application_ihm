@@ -16,6 +16,7 @@ SOURCES += \
     lecteur_choix_diapo.cpp \
     lecteur_message.cpp \
     lecteur_modele.cpp \
+    lecteur_modif_intitule.cpp \
     lecteur_vitesse.cpp \
     lecteur_vue.cpp \
     main.cpp
@@ -27,11 +28,13 @@ HEADERS += \
     lecteur_choix_diapo.h \
     lecteur_message.h \
     lecteur_modele.h \
+    lecteur_modif_intitule.h \
     lecteur_vitesse.h \
     lecteur_vue.h
 
 FORMS += \
     lecteur_choix_diapo.ui \
+    lecteur_modif_intitule.ui \
     lecteur_vitesse.ui \
     lecteur_vue.ui
 

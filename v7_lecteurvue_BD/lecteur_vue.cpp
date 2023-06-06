@@ -11,6 +11,7 @@ LecteurVue::LecteurVue(QWidget *parent)
     _message = new LecteurMessage(this);
     _vitesseDial = new LecteurVitesse(this);
     _choixDiapo = new LecteurChoixDiapo(this);
+    _modifTitre = new LecteurModifIntitule(this);
     _modele = new LecteurModele;
     _item = new QGraphicsPixmapItem;
     _timer = new QTimer(this);
@@ -45,6 +46,8 @@ LecteurVue::LecteurVue(QWidget *parent)
     connect(_timer,SIGNAL(timeout()),this,SLOT(demandeImageSuivante()));
     connect(_timer,SIGNAL(timeout()),this,SLOT(demandeMajIntitule()));
     connect(_timer,SIGNAL(timeout()),this,SLOT(demandeMajStatusBar()));
+
+    connect(ui->actionModifier_titre_image,SIGNAL(triggered()),this,SLOT(demandeModifIntitule()));
 }
 
 void LecteurVue::chargerImage()
@@ -56,6 +59,16 @@ void LecteurVue::chargerImage()
     QImage imgActuelle(QString::fromStdString(_modele->imageCourante()->getChemin()));
     _item = new QGraphicsPixmapItem(QPixmap::fromImage(imgActuelle));
     _scene->addItem(_item);
+}
+
+void LecteurVue::demandeModifIntitule()
+{
+    int retour = _modifTitre->exec();
+    if (retour) {
+
+        qDebug() << _modifTitre->getValue();
+        qDebug() << "ok";
+    }
 }
 
 void LecteurVue::desactiverToutBoutons()

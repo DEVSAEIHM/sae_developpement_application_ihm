@@ -10,6 +10,7 @@
 #include "lecteur_message.h"
 #include "lecteur_vitesse.h"
 #include "lecteur_choix_diapo.h"
+#include "lecteur_modif_intitule.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class LecteurVue; }
@@ -30,7 +31,8 @@ private:
                                  de l'application. */
     LecteurVitesse *_vitesseDial; /* La boîte de dialogue permettant de modifier
                                      la vitesse de défilement des images. */
-    LecteurChoixDiapo *_choixDiapo;
+    LecteurChoixDiapo *_choixDiapo; // fenêtre permettant de choisir le diaporama a afficher
+    LecteurModifIntitule *_modifTitre; // fenêtre permettant la modification du titre de l'image
     LecteurModele *_modele; /* Pointeur sur le modèle. */
     QGraphicsScene *_scene; // Pointeur sur la scène de la QGraphicsView
     QGraphicsPixmapItem *_item; // Pointeur sur l'item présent dans la scène
@@ -58,6 +60,7 @@ private slots:
     void demandeChangerVitesse(); /* Affiche la fenêtre de dialogue permettant de modifier
                                      la vitesse de défilement du diaporama */
     void demandeMiniLecteur(); // Réduit la taille du lecteur à sa taille minimale.
+    void demandeModifIntitule(); // Permet de modifer l'intitulé (titre image, uri de l'image)
 
 private:
     void chargerImage(); // Charge l'image dans la scène du QGraphicsView

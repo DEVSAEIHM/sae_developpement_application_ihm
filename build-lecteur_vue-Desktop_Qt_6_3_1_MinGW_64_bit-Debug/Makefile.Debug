@@ -776,13 +776,15 @@ debug/moc_lecteur_vue.cpp: ../v6_lecteurvue/lecteur_vue.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qtimer.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qbasictimer.h \
 		../v6_lecteurvue/lecteur_modele.h \
-		../v6_lecteurvue/image.h \
 		../v6_lecteurvue/database.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlDatabase \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qsqldatabase.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsqlglobal.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsql-config.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsqlexports.h \
+		../v6_lecteurvue/diaporama.h \
+		../v6_lecteurvue/image.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QString \
 		../v6_lecteurvue/lecteur_message.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QMessageBox \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qmessagebox.h \
@@ -1098,58 +1100,7 @@ debug/lecteur_choix_diapo.o: ../v6_lecteurvue/lecteur_choix_diapo.cpp ../v6_lect
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_lecteur_choix_diapo.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QVariant \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QApplication \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qeventloop.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qfuture.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qfutureinterface.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qmutex.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qresultstore.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qfuture_impl.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qthreadpool.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qthread.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qdeadlinetimer.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qrunnable.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qexception.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qpromise.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qguiapplication.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qlocale.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QComboBox \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qcombobox.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qstyleoption.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qvalidator.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qregularexpression.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qslider.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qabstractslider.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qstyle.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qtabbar.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qtabwidget.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qrubberband.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qframe.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qabstractitemmodel.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QHBoxLayout \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qboxlayout.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qlayout.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qlayoutitem.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qgridlayout.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QLabel \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qpicture.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QPushButton \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QSpacerItem \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QVBoxLayout
+		ui_lecteur_choix_diapo.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\lecteur_choix_diapo.o ..\v6_lecteurvue\lecteur_choix_diapo.cpp
 
 debug/lecteur_message.o: ../v6_lecteurvue/lecteur_message.cpp ../v6_lecteurvue/lecteur_message.h \
@@ -1290,7 +1241,6 @@ debug/lecteur_message.o: ../v6_lecteurvue/lecteur_message.cpp ../v6_lecteurvue/l
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\lecteur_message.o ..\v6_lecteurvue\lecteur_message.cpp
 
 debug/lecteur_modele.o: ../v6_lecteurvue/lecteur_modele.cpp ../v6_lecteurvue/lecteur_modele.h \
-		../v6_lecteurvue/image.h \
 		../v6_lecteurvue/database.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlDatabase \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qsqldatabase.h \
@@ -1339,6 +1289,9 @@ debug/lecteur_modele.o: ../v6_lecteurvue/lecteur_modele.cpp ../v6_lecteurvue/lec
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qutf8stringview.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qstringtokenizer.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qstringbuilder.h \
+		../v6_lecteurvue/diaporama.h \
+		../v6_lecteurvue/image.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QString \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlQuery \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qsqlquery.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qvariant.h \
@@ -1518,47 +1471,7 @@ debug/lecteur_vitesse.o: ../v6_lecteurvue/lecteur_vitesse.cpp ../v6_lecteurvue/l
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_lecteur_vitesse.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QVariant \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QApplication \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qeventloop.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qfuture.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qfutureinterface.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qmutex.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qresultstore.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qfuture_impl.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qthreadpool.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qthread.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qdeadlinetimer.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qrunnable.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qexception.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qpromise.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qguiapplication.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qlocale.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QDial \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qdial.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qabstractslider.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QHBoxLayout \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qboxlayout.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qlayout.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qlayoutitem.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qgridlayout.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QLabel \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qframe.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qpicture.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QPushButton \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QSpacerItem \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QVBoxLayout
+		ui_lecteur_vitesse.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\lecteur_vitesse.o ..\v6_lecteurvue\lecteur_vitesse.cpp
 
 debug/lecteur_vue.o: ../v6_lecteurvue/lecteur_vue.cpp ../v6_lecteurvue/lecteur_vue.h \
@@ -1706,13 +1619,15 @@ debug/lecteur_vue.o: ../v6_lecteurvue/lecteur_vue.cpp ../v6_lecteurvue/lecteur_v
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qtimer.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qbasictimer.h \
 		../v6_lecteurvue/lecteur_modele.h \
-		../v6_lecteurvue/image.h \
 		../v6_lecteurvue/database.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlDatabase \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qsqldatabase.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsqlglobal.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsql-config.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsqlexports.h \
+		../v6_lecteurvue/diaporama.h \
+		../v6_lecteurvue/image.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QString \
 		../v6_lecteurvue/lecteur_message.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QMessageBox \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qmessagebox.h \
@@ -1720,60 +1635,7 @@ debug/lecteur_vue.o: ../v6_lecteurvue/lecteur_vue.cpp ../v6_lecteurvue/lecteur_v
 		../v6_lecteurvue/lecteur_vitesse.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QDialog \
 		../v6_lecteurvue/lecteur_choix_diapo.h \
-		ui_lecteur_vue.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QVariant \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/QAction \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/QIcon \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QApplication \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qapplication.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qcoreapplication.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qeventloop.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qfuture.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qfutureinterface.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qmutex.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qresultstore.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qfuture_impl.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qthreadpool.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qthread.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qdeadlinetimer.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qelapsedtimer.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qrunnable.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qexception.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qpromise.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qguiapplication.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qinputmethod.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qlocale.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qguiapplication_platform.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QGraphicsView \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qgraphicsview.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qpainter.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qtextoption.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qscrollarea.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qframe.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QGridLayout \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qgridlayout.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qlayout.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qlayoutitem.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qboxlayout.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QHBoxLayout \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QLabel \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qlabel.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qpicture.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtGui/qtextdocument.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QMenu \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qmenu.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QMenuBar \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qmenubar.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QPushButton \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qpushbutton.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QSpacerItem \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QStatusBar \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qstatusbar.h \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QVBoxLayout \
-		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QWidget
+		ui_lecteur_vue.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\lecteur_vue.o ..\v6_lecteurvue\lecteur_vue.cpp
 
 debug/main.o: ../v6_lecteurvue/main.cpp ../v6_lecteurvue/lecteur_vue.h \
@@ -1921,13 +1783,15 @@ debug/main.o: ../v6_lecteurvue/main.cpp ../v6_lecteurvue/lecteur_vue.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qtimer.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/qbasictimer.h \
 		../v6_lecteurvue/lecteur_modele.h \
-		../v6_lecteurvue/image.h \
 		../v6_lecteurvue/database.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/QSqlDatabase \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qsqldatabase.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsqlglobal.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsql-config.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtSql/qtsqlexports.h \
+		../v6_lecteurvue/diaporama.h \
+		../v6_lecteurvue/image.h \
+		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtCore/QString \
 		../v6_lecteurvue/lecteur_message.h \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/QMessageBox \
 		C:/Qt/Qt6.3.1/6.3.1/mingw_64/include/QtWidgets/qmessagebox.h \

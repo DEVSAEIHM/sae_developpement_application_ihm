@@ -226,6 +226,7 @@
      <addaction name="actionCharger_diaporama"/>
      <addaction name="actionEnlever_diaporama"/>
      <addaction name="actionMini_lecteur"/>
+     <addaction name="actionModifier_titre_image"/>
     </widget>
     <addaction name="action_Quitter"/>
     <addaction name="menuParam_trer"/>
@@ -304,6 +305,11 @@
    </property>
    <property name="shortcut">
     <string>Ctrl+M</string>
+   </property>
+  </action>
+  <action name="actionModifier_titre_image">
+   <property name="text">
+    <string>Modifier titre image</string>
    </property>
   </action>
  </widget>

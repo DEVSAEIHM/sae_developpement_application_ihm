@@ -119,7 +119,7 @@ public:
     void retranslateUi(QDialog *LecteurVitesse)
     {
         LecteurVitesse->setWindowTitle(QCoreApplication::translate("LecteurVitesse", "Dialog", nullptr));
-        label->setText(QCoreApplication::translate("LecteurVitesse", "Tourner la molette pour modifier le temps en millisecondes", nullptr));
+        label->setText(QCoreApplication::translate("LecteurVitesse", "Tourner la molette pour modifier le temps en d\303\251cisecondes", nullptr));
         okBtn->setText(QCoreApplication::translate("LecteurVitesse", "Ok", nullptr));
         lcd->setText(QCoreApplication::translate("LecteurVitesse", "20", nullptr));
         anBtn->setText(QCoreApplication::translate("LecteurVitesse", "Annuler", nullptr));
