@@ -1,5 +1,10 @@
-Chemin d'accès au ressources
+Chemin d'accès au ressources images disney:
 :/cartesDisney/nom_image.gif
 
+Chemin d'accès aux ressources icones utilisées dans l'application:
+:/icon/nom_icone.png
+
+le nom fichier ressources gérant les différentes images de l'application:
+ressourcesDiapo.qrc
 
 /!\ La version 7 base de donnée n'a pas été testé car nous avons pas les droits de modifications sur la BD
