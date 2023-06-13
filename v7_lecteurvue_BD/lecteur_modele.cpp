@@ -29,7 +29,6 @@ void LecteurModele::changerDiaporama(unsigned int pNumDiaporama)
     _numDiaporamaCourant = pNumDiaporama;
     if (_numDiaporamaCourant > 0)
     {
-
         chargerDiaporama(); // charge le diaporama courant
     }
 
@@ -42,7 +41,6 @@ QStringList LecteurModele::getNomDiapo()
     query.exec("Select * From Diaporamas");
     for (int i=0; query.next(); i++)
     {
-        qDebug() << query.value(1).toString();
         nomsDiapo.append(query.value(1).toString());
     }
     return nomsDiapo;
@@ -75,8 +73,6 @@ void LecteurModele::chargerDiaporama()
 
      // trie du contenu du diaporama par ordre croissant selon le rang de l'image dans le diaporama
     _diaporama.triDiaporama();
-
-
 }
 
 unsigned int LecteurModele::nbImages()

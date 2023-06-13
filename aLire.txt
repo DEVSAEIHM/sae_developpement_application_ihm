@@ -6,5 +6,3 @@ Chemin d'accès aux ressources icones utilisées dans l'application:
 
 le nom fichier ressources gérant les différentes images de l'application:
 ressourcesDiapo.qrc
-
-/!\ La version 7 base de donnée n'a pas été testé car nous avons pas les droits de modifications sur la BD

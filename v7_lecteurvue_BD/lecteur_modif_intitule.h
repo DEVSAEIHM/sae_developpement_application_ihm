@@ -14,7 +14,7 @@ class LecteurModifIntitule : public QDialog
 public:
     explicit LecteurModifIntitule(QWidget *parent = nullptr);
     ~LecteurModifIntitule();
-    QString getValue();
+    QString getValue(); // retourne le titre saisi par l'utilisateur
 
 private:
     Ui::LecteurModifIntitule *ui;

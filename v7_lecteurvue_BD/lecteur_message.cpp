@@ -10,6 +10,4 @@ LecteurMessage::LecteurMessage(QWidget *parent) :
 }
 
 LecteurMessage::~LecteurMessage()
-{
-
-}
+{}

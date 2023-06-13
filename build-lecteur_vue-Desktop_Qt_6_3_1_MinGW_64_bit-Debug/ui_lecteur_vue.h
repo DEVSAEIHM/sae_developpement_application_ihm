@@ -37,6 +37,7 @@ public:
     QAction *actionCharger_diaporama;
     QAction *actionEnlever_diaporama;
     QAction *actionMini_lecteur;
+    QAction *actionModifier_titre_image;
     QWidget *centralwidget;
     QVBoxLayout *verticalLayout_3;
     QGridLayout *gridLayout;
@@ -88,6 +89,8 @@ public:
         actionEnlever_diaporama->setIcon(icon2);
         actionMini_lecteur = new QAction(LecteurVue);
         actionMini_lecteur->setObjectName(QString::fromUtf8("actionMini_lecteur"));
+        actionModifier_titre_image = new QAction(LecteurVue);
+        actionModifier_titre_image->setObjectName(QString::fromUtf8("actionModifier_titre_image"));
         centralwidget = new QWidget(LecteurVue);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         centralwidget->setMinimumSize(QSize(0, 0));
@@ -210,6 +213,7 @@ public:
         menuParam_trer->addAction(actionCharger_diaporama);
         menuParam_trer->addAction(actionEnlever_diaporama);
         menuParam_trer->addAction(actionMini_lecteur);
+        menuParam_trer->addAction(actionModifier_titre_image);
         menu_Aide->addAction(actionA_propos_de);
 
         retranslateUi(LecteurVue);
@@ -244,6 +248,7 @@ public:
 #if QT_CONFIG(shortcut)
         actionMini_lecteur->setShortcut(QCoreApplication::translate("LecteurVue", "Ctrl+M", nullptr));
 #endif // QT_CONFIG(shortcut)
+        actionModifier_titre_image->setText(QCoreApplication::translate("LecteurVue", "Modifier titre image", nullptr));
         intitule->setText(QCoreApplication::translate("LecteurVue", "Aucun diaporama", nullptr));
         btnLancer->setText(QCoreApplication::translate("LecteurVue", "&Lancer", nullptr));
         btnPrecedent->setText(QCoreApplication::translate("LecteurVue", "&Pr\303\251c\303\251dent", nullptr));

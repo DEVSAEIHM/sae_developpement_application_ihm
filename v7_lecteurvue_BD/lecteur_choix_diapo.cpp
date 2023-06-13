@@ -15,7 +15,6 @@ LecteurChoixDiapo::LecteurChoixDiapo(QWidget *parent) :
 void LecteurChoixDiapo::setValue(int n)
 {
     _value = n;
-    qDebug() << _value;
 }
 
 int LecteurChoixDiapo::getValue() const

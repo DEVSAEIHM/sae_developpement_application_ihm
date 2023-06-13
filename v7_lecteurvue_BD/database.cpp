@@ -6,7 +6,7 @@ Database::Database()
     myDb = QSqlDatabase::addDatabase(CONNECT_TYPE);
     myDb.setHostName(HOSTNAME);
     myDb.setPort(PORT);
-    myDb.setDatabaseName("saeIhm");
+    myDb.setDatabaseName("rlaborde");
     myDb.setUserName(USERNAME);
     myDb.setPassword(USERNAME);
 
@@ -16,4 +16,8 @@ Database::Database()
 
 bool Database::openDataBase() {
     return myDb.open();
+}
+
+void Database::closeDataBase() {
+    myDb.close();
 }

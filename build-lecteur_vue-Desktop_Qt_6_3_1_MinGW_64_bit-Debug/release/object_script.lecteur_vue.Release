@@ -4,11 +4,13 @@ release/image.o
 release/lecteur_choix_diapo.o
 release/lecteur_message.o
 release/lecteur_modele.o
+release/lecteur_modif_intitule.o
 release/lecteur_vitesse.o
 release/lecteur_vue.o
 release/main.o
 release/qrc_ressourcesDiapo.o
 release/moc_lecteur_choix_diapo.o
 release/moc_lecteur_message.o
+release/moc_lecteur_modif_intitule.o
 release/moc_lecteur_vitesse.o
 release/moc_lecteur_vue.o

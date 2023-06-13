@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 #include <memory>
-#include "../../v6_lecteurvue/lecteur_vitesse.h"
+#include "../../v7_lecteurvue_BD/lecteur_vitesse.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)

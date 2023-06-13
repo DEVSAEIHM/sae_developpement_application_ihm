@@ -20,6 +20,7 @@ LecteurVue::LecteurVue(QWidget *parent)
 
     setMode(QString(tr("Manuel")));
     ui->statusbar->showMessage(tr("mode : Manuel             images : 0"));
+    ui->actionModifier_titre_image->setEnabled(false);
     desactiverToutBoutons();
 
     connect(ui->btnLancer,SIGNAL(clicked()),this,SLOT(demandeLancer()));
@@ -64,10 +65,8 @@ void LecteurVue::chargerImage()
 void LecteurVue::demandeModifIntitule()
 {
     int retour = _modifTitre->exec();
-    if (retour) {
-
-        qDebug() << _modifTitre->getValue();
-        qDebug() << "ok";
+    if (retour && _scene->items().isEmpty() == false) {
+        _modele->modifierTitreImage(_modifTitre->getValue());
     }
 }
 
@@ -90,11 +89,6 @@ void LecteurVue::demandeChargerDiapo()
             _currentNumDiapo = _choixDiapo->getValue();
             chargerDiapo();
             ui->actionCharger_diaporama->setEnabled(false);
-
-        }
-        else
-        {
-            qDebug() << _currentNumDiapo;
         }
     }
 }
@@ -106,13 +100,13 @@ void LecteurVue::chargerDiapo()
     ui->btnLancer->setEnabled(true);
     ui->btnPrecedent->setEnabled(true);
     ui->btnSuivant->setEnabled(true);
+    ui->actionModifier_titre_image->setEnabled(true);
     demandeMajIntitule();
     demandeMajStatusBar();
 }
 
 void LecteurVue::demandeEnleverDiapo()
 {
-    qDebug() << "enlever diapo";
     _timer->stop();
     if (_scene->items().isEmpty() == false)
     {
@@ -124,6 +118,7 @@ void LecteurVue::demandeEnleverDiapo()
     ui->statusbar->showMessage(tr("mode : Manuel             images : 0"));
     ui->actionCharger_diaporama->setEnabled(true);
     ui->actionVitesse->setEnabled(true);
+    ui->actionModifier_titre_image->setEnabled(false);
     _currentNumDiapo = -1;
 }
 
@@ -132,7 +127,6 @@ void LecteurVue::demandeChangerVitesse()
     int retour = _vitesseDial->exec();
     if (retour == 1)
     {
-        qDebug() << _vitesseDial->getValue();
         _speed = _vitesseDial->getValue() * 100;
     }
 }
@@ -156,7 +150,6 @@ void LecteurVue::demandeImagePrecedente()
 
 void LecteurVue::demandeLancer()
 {
-    qDebug() << "demandeLancer" << getMode();
     chargerDiapo();
     chargerImage();
     if (getMode() == QString(tr("Manuel")))
@@ -167,15 +160,16 @@ void LecteurVue::demandeLancer()
     demandeMajStatusBar();
     ui->btnArreter->setEnabled(true);
     ui->actionVitesse->setEnabled(false);
+    ui->actionModifier_titre_image->setEnabled(false);
     _timer->start(_speed);
 }
 
 void LecteurVue::demandeArreter()
 {
-    qDebug() << "demandeArreter" << getMode();
     ui->btnArreter->setEnabled(false);
     ui->actionCharger_diaporama->setEnabled(true);
     ui->actionVitesse->setEnabled(true);
+    ui->actionModifier_titre_image->setEnabled(true);
     _timer->stop();
     demandeMajMode();
     demandeMajStatusBar();
